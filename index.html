@@ -97,29 +97,29 @@
     </div>
 
     <!-- Quick Market Ticker Bar (Desktop) -->
-    <div class="hidden xl:flex items-center gap-6 px-4 py-1.5 rounded-lg bg-slate-900/60 border border-slate-800/80 text-xs font-mono-num">
+    <div class="hidden lg:flex items-center gap-6 px-4 py-1.5 rounded-lg bg-slate-900/60 border border-slate-800/80 text-xs font-mono-num" id="quick-ticker-bar">
       <div class="flex items-center gap-2">
-        <span class="text-slate-400">S&P 500</span>
-        <span class="text-slate-200">5,745.20</span>
-        <span class="text-emerald-400">+0.48%</span>
+        <span class="text-slate-400">S&P (NVDA)</span>
+        <span class="text-slate-200" id="top-sp500-price">--</span>
+        <span class="text-emerald-400 font-semibold" id="top-sp500-change">--%</span>
       </div>
       <div class="w-px h-3 bg-slate-800"></div>
       <div class="flex items-center gap-2">
-        <span class="text-slate-400">SET</span>
-        <span class="text-slate-200">1,452.80</span>
-        <span class="text-emerald-400">+0.92%</span>
+        <span class="text-slate-400">SET (DELTA)</span>
+        <span class="text-slate-200" id="top-set-price">--</span>
+        <span class="text-emerald-400 font-semibold" id="top-set-change">--%</span>
       </div>
       <div class="w-px h-3 bg-slate-800"></div>
       <div class="flex items-center gap-2">
         <span class="text-slate-400">BTC</span>
-        <span class="text-slate-200">$64,820</span>
-        <span class="text-emerald-400">+3.85%</span>
+        <span class="text-slate-200" id="top-btc-price">--</span>
+        <span class="text-emerald-400 font-semibold" id="top-btc-change">--%</span>
       </div>
       <div class="w-px h-3 bg-slate-800"></div>
       <div class="flex items-center gap-2">
         <span class="text-slate-400">GOLD</span>
-        <span class="text-slate-200">$2,684.5</span>
-        <span class="text-emerald-400">+0.82%</span>
+        <span class="text-slate-200" id="top-gold-price">--</span>
+        <span class="text-emerald-400 font-semibold" id="top-gold-change">--%</span>
       </div>
     </div>
 

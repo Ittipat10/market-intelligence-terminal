@@ -347,6 +347,41 @@ function initLiveClock() {
 }
 
 /**
+ * Update Quick Ticker Bar at the top
+ */
+function updateTopTickerBar() {
+  if (!state.data) return;
+
+  const updateItem = (elemPriceId, elemChangeId, item, prefix = '$') => {
+    const elPrice = document.getElementById(elemPriceId);
+    const elChange = document.getElementById(elemChangeId);
+    if (!elPrice || !elChange || !item) return;
+
+    elPrice.textContent = `${prefix}${item.price >= 1000 ? item.price.toLocaleString('en-US') : item.price}`;
+    const sign = item.change >= 0 ? '+' : '';
+    elChange.textContent = `${sign}${item.change.toFixed(2)}%`;
+    elChange.className = item.change >= 0 
+      ? 'text-emerald-400 font-semibold' 
+      : 'text-rose-400 font-semibold';
+  };
+
+  const usList = state.data.us_stocks || [];
+  const thaiList = state.data.thai_stocks || [];
+  const cryptoList = state.data.crypto || [];
+  const tfexList = state.data.tfex || [];
+
+  const nvda = usList.find(x => x.ticker === 'NVDA') || usList[0];
+  const delta = thaiList.find(x => x.ticker.includes('DELTA')) || thaiList[0];
+  const btc = cryptoList.find(x => x.ticker.includes('BTC')) || cryptoList[0];
+  const gold = tfexList.find(x => x.name.toLowerCase().includes('gold') || x.ticker.toLowerCase().includes('gold')) || tfexList[0];
+
+  updateItem('top-sp500-price', 'top-sp500-change', nvda, '$');
+  updateItem('top-set-price', 'top-set-change', delta, '฿');
+  updateItem('top-btc-price', 'top-btc-change', btc, '$');
+  updateItem('top-gold-price', 'top-gold-change', gold, '$');
+}
+
+/**
  * Fetch Data Function
  */
 async function fetchScannerResults(endpoint = 'data/scan-results.json') {
@@ -354,7 +389,9 @@ async function fetchScannerResults(endpoint = 'data/scan-results.json') {
   refreshIcon.classList.add('animate-spin');
 
   try {
-    const response = await fetch(endpoint, { cache: 'no-cache' });
+    // Add cache busting query parameter to always get fresh data
+    const cacheBusterUrl = `${endpoint}?_t=${Date.now()}`;
+    const response = await fetch(cacheBusterUrl, { cache: 'no-store' });
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -369,6 +406,7 @@ async function fetchScannerResults(endpoint = 'data/scan-results.json') {
     state.lastUpdated = new Date();
     lastUpdatedElement.textContent = state.lastUpdated.toLocaleTimeString();
     updateSidebarCounts();
+    updateTopTickerBar();
     renderTable();
   }
 }
