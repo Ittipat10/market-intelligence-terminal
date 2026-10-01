@@ -1,0 +1,40 @@
+name: Update Market Intelligence Data
+
+on:
+  schedule:
+    # Runs at 16:00 UTC (23:00 Bangkok Time, UTC+7) every Monday through Friday
+    - cron: '0 16 * * 1-5'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab anytime
+
+permissions:
+  contents: write
+
+jobs:
+  scan-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Market Intelligence Scanner
+        run: |
+          python scanner.py
+
+      - name: Commit and Push Updated Data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/scan-results.json
+          git diff --staged --quiet || (git commit -m "Automated: Update market scanner data [skip ci]" && git push)

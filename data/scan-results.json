@@ -1,0 +1,496 @@
+{
+  "us_stocks": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 128.45,
+      "change": 4.32,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 122.10,
+      "rsi14": 68.4,
+      "macd": {
+        "value": 2.85,
+        "signal": 1.95,
+        "histogram": 0.90,
+        "trend": "Bullish Crossover"
+      },
+      "action_signal": "BUY",
+      "volume": "52.4M",
+      "confidence": "94%"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "price": 224.23,
+      "change": 1.15,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 221.80,
+      "rsi14": 56.2,
+      "macd": {
+        "value": 1.12,
+        "signal": 0.88,
+        "histogram": 0.24,
+        "trend": "Bullish"
+      },
+      "action_signal": "BUY",
+      "volume": "38.1M",
+      "confidence": "88%"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "price": 248.98,
+      "change": -3.42,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 255.40,
+      "rsi14": 42.1,
+      "macd": {
+        "value": -1.45,
+        "signal": -0.80,
+        "histogram": -0.65,
+        "trend": "Bearish Divergence"
+      },
+      "action_signal": "WAIT",
+      "volume": "64.8M",
+      "confidence": "72%"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 435.12,
+      "change": 0.68,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 431.50,
+      "rsi14": 58.7,
+      "macd": {
+        "value": 1.80,
+        "signal": 1.65,
+        "histogram": 0.15,
+        "trend": "Bullish"
+      },
+      "action_signal": "BUY",
+      "volume": "18.3M",
+      "confidence": "85%"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "price": 156.80,
+      "change": 3.75,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 151.20,
+      "rsi14": 64.9,
+      "macd": {
+        "value": 2.10,
+        "signal": 1.40,
+        "histogram": 0.70,
+        "trend": "Bullish Crossover"
+      },
+      "action_signal": "BUY",
+      "volume": "31.7M",
+      "confidence": "91%"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "price": 21.40,
+      "change": -4.85,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 23.10,
+      "rsi14": 28.5,
+      "macd": {
+        "value": -0.85,
+        "signal": -0.60,
+        "histogram": -0.25,
+        "trend": "Bearish"
+      },
+      "action_signal": "WAIT",
+      "volume": "42.0M",
+      "confidence": "80%"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "price": 572.50,
+      "change": 2.14,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 560.10,
+      "rsi14": 62.3,
+      "macd": {
+        "value": 4.50,
+        "signal": 3.80,
+        "histogram": 0.70,
+        "trend": "Bullish"
+      },
+      "action_signal": "BUY",
+      "volume": "14.9M",
+      "confidence": "89%"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 187.90,
+      "change": -0.45,
+      "ema20_status": "At EMA 20",
+      "ema20_value": 188.10,
+      "rsi14": 49.8,
+      "macd": {
+        "value": 0.05,
+        "signal": 0.12,
+        "histogram": -0.07,
+        "trend": "Neutral"
+      },
+      "action_signal": "WAIT",
+      "volume": "22.5M",
+      "confidence": "65%"
+    }
+  ],
+  "thai_stocks": [
+    {
+      "ticker": "DELTA.BK",
+      "name": "Delta Electronics Thailand",
+      "price": 142.50,
+      "change": 5.17,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 135.00,
+      "rsi14": 71.2,
+      "macd": {
+        "value": 3.20,
+        "signal": 2.10,
+        "histogram": 1.10,
+        "trend": "Bullish Momentum"
+      },
+      "action_signal": "BUY",
+      "volume": "28.4M",
+      "confidence": "92%"
+    },
+    {
+      "ticker": "PTT.BK",
+      "name": "PTT Public Company Limited",
+      "price": 33.75,
+      "change": -0.74,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 34.20,
+      "rsi14": 44.1,
+      "macd": {
+        "value": -0.15,
+        "signal": -0.08,
+        "histogram": -0.07,
+        "trend": "Bearish"
+      },
+      "action_signal": "WAIT",
+      "volume": "54.1M",
+      "confidence": "70%"
+    },
+    {
+      "ticker": "CPALL.BK",
+      "name": "CP ALL Public Company",
+      "price": 64.50,
+      "change": 1.98,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 63.10,
+      "rsi14": 59.4,
+      "macd": {
+        "value": 0.75,
+        "signal": 0.52,
+        "histogram": 0.23,
+        "trend": "Bullish"
+      },
+      "action_signal": "BUY",
+      "volume": "19.8M",
+      "confidence": "87%"
+    },
+    {
+      "ticker": "KBANK.BK",
+      "name": "Kasikornbank",
+      "price": 154.00,
+      "change": 2.33,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 150.50,
+      "rsi14": 63.8,
+      "macd": {
+        "value": 1.45,
+        "signal": 0.95,
+        "histogram": 0.50,
+        "trend": "Bullish Crossover"
+      },
+      "action_signal": "BUY",
+      "volume": "16.2M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "AOT.BK",
+      "name": "Airports of Thailand",
+      "price": 61.25,
+      "change": -1.61,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 62.80,
+      "rsi14": 38.6,
+      "macd": {
+        "value": -0.42,
+        "signal": -0.28,
+        "histogram": -0.14,
+        "trend": "Bearish"
+      },
+      "action_signal": "WAIT",
+      "volume": "22.0M",
+      "confidence": "75%"
+    },
+    {
+      "ticker": "GULF.BK",
+      "name": "Gulf Energy Development",
+      "price": 63.00,
+      "change": 3.28,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 60.90,
+      "rsi14": 67.5,
+      "macd": {
+        "value": 1.10,
+        "signal": 0.72,
+        "histogram": 0.38,
+        "trend": "Bullish"
+      },
+      "action_signal": "BUY",
+      "volume": "34.6M",
+      "confidence": "89%"
+    },
+    {
+      "ticker": "BDMS.BK",
+      "name": "Bangkok Dusit Medical Services",
+      "price": 27.50,
+      "change": 0.00,
+      "ema20_status": "At EMA 20",
+      "ema20_value": 27.50,
+      "rsi14": 51.0,
+      "macd": {
+        "value": 0.02,
+        "signal": 0.01,
+        "histogram": 0.01,
+        "trend": "Neutral"
+      },
+      "action_signal": "WAIT",
+      "volume": "11.5M",
+      "confidence": "60%"
+    }
+  ],
+  "tfex": [
+    {
+      "ticker": "S50M26",
+      "name": "SET50 Index Futures M26",
+      "price": 932.40,
+      "change": 1.45,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 921.10,
+      "rsi14": 64.2,
+      "macd": {
+        "value": 3.80,
+        "signal": 2.40,
+        "histogram": 1.40,
+        "trend": "Bullish Strong"
+      },
+      "action_signal": "BUY",
+      "volume": "142,500",
+      "confidence": "91%"
+    },
+    {
+      "ticker": "S50U26",
+      "name": "SET50 Index Futures U26",
+      "price": 928.10,
+      "change": 1.32,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 918.40,
+      "rsi14": 61.7,
+      "macd": {
+        "value": 3.10,
+        "signal": 2.15,
+        "histogram": 0.95,
+        "trend": "Bullish"
+      },
+      "action_signal": "BUY",
+      "volume": "38,200",
+      "confidence": "86%"
+    },
+    {
+      "ticker": "GOM26",
+      "name": "Gold Online Futures M26",
+      "price": 2684.50,
+      "change": 0.82,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 2660.00,
+      "rsi14": 69.1,
+      "macd": {
+        "value": 14.50,
+        "signal": 11.20,
+        "histogram": 3.30,
+        "trend": "Bullish Upward"
+      },
+      "action_signal": "BUY",
+      "volume": "46,800",
+      "confidence": "93%"
+    },
+    {
+      "ticker": "SVFM26",
+      "name": "Silver Online Futures M26",
+      "price": 31.85,
+      "change": -2.15,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 32.50,
+      "rsi14": 41.3,
+      "macd": {
+        "value": -0.45,
+        "signal": -0.20,
+        "histogram": -0.25,
+        "trend": "Bearish Breakdown"
+      },
+      "action_signal": "WAIT",
+      "volume": "12,400",
+      "confidence": "76%"
+    },
+    {
+      "ticker": "USDM26",
+      "name": "USD Futures M26",
+      "price": 33.15,
+      "change": -0.36,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 33.32,
+      "rsi14": 35.8,
+      "macd": {
+        "value": -0.12,
+        "signal": -0.07,
+        "histogram": -0.05,
+        "trend": "Bearish Continuation"
+      },
+      "action_signal": "WAIT",
+      "volume": "18,900",
+      "confidence": "81%"
+    }
+  ],
+  "crypto": [
+    {
+      "ticker": "BTC/USDT",
+      "name": "Bitcoin",
+      "price": 64820.00,
+      "change": 3.85,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 62450.00,
+      "rsi14": 65.4,
+      "macd": {
+        "value": 842.10,
+        "signal": 612.40,
+        "histogram": 229.70,
+        "trend": "Bullish Expansion"
+      },
+      "action_signal": "BUY",
+      "volume": "1.42B",
+      "confidence": "95%"
+    },
+    {
+      "ticker": "ETH/USDT",
+      "name": "Ethereum",
+      "price": 2640.50,
+      "change": 2.45,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 2580.00,
+      "rsi14": 58.2,
+      "macd": {
+        "value": 34.20,
+        "signal": 25.10,
+        "histogram": 9.10,
+        "trend": "Bullish"
+      },
+      "action_signal": "BUY",
+      "volume": "780M",
+      "confidence": "88%"
+    },
+    {
+      "ticker": "SOL/USDT",
+      "name": "Solana",
+      "price": 154.20,
+      "change": 6.84,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 142.10,
+      "rsi14": 72.8,
+      "macd": {
+        "value": 5.40,
+        "signal": 3.60,
+        "histogram": 1.80,
+        "trend": "Bullish Momentum"
+      },
+      "action_signal": "BUY",
+      "volume": "620M",
+      "confidence": "93%"
+    },
+    {
+      "ticker": "BNB/USDT",
+      "name": "BNB",
+      "price": 586.30,
+      "change": 0.88,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 580.00,
+      "rsi14": 53.6,
+      "macd": {
+        "value": 3.10,
+        "signal": 2.80,
+        "histogram": 0.30,
+        "trend": "Neutral Bullish"
+      },
+      "action_signal": "BUY",
+      "volume": "210M",
+      "confidence": "79%"
+    },
+    {
+      "ticker": "XRP/USDT",
+      "name": "Ripple",
+      "price": 0.582,
+      "change": -2.45,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.598,
+      "rsi14": 41.0,
+      "macd": {
+        "value": -0.008,
+        "signal": -0.004,
+        "histogram": -0.004,
+        "trend": "Bearish"
+      },
+      "action_signal": "WAIT",
+      "volume": "340M",
+      "confidence": "74%"
+    },
+    {
+      "ticker": "DOGE/USDT",
+      "name": "Dogecoin",
+      "price": 0.108,
+      "change": -4.20,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.114,
+      "rsi14": 36.4,
+      "macd": {
+        "value": -0.0025,
+        "signal": -0.0012,
+        "histogram": -0.0013,
+        "trend": "Bearish"
+      },
+      "action_signal": "WAIT",
+      "volume": "180M",
+      "confidence": "68%"
+    },
+    {
+      "ticker": "AVAX/USDT",
+      "name": "Avalanche",
+      "price": 28.90,
+      "change": 4.12,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 27.20,
+      "rsi14": 63.1,
+      "macd": {
+        "value": 0.85,
+        "signal": 0.55,
+        "histogram": 0.30,
+        "trend": "Bullish Crossover"
+      },
+      "action_signal": "BUY",
+      "volume": "145M",
+      "confidence": "89%"
+    }
+  ]
+}
