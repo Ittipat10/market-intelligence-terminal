@@ -28,14 +28,16 @@ const i18n = {
     cat_crypto: "Crypto",
     filter_title: "Signal Filter",
     filter_all: "All Signals",
-    filter_buy: "Bullish (BUY / Pass)",
+    filter_buy: "Bullish (BUY / Long)",
+    filter_sell: "Bearish (SELL / Short)",
     filter_wait: "Wait / Neutral",
     presets_title: "Technical Presets",
     preset_oversold: "RSI < 35 (Oversold)",
     preset_overbought: "RSI > 65 (Overbought)",
     engine_title: "Screening Engine",
     engine_online: "Online",
-    stat_bullish: "BULLISH",
+    stat_bullish: "BUY",
+    stat_bearish: "SELL",
     stat_wait: "WAIT",
     search_placeholder: "Search symbol or name...",
     sort_default: "Sort: Default",
@@ -88,6 +90,7 @@ const i18n = {
     },
     signals: {
       BUY: "BUY",
+      SELL: "SELL",
       WAIT: "WAIT",
       PASS: "PASS"
     },
@@ -128,15 +131,17 @@ const i18n = {
     cat_crypto: "คริปโทฯ (Crypto)",
     filter_title: "ตัวกรองสัญญาณ",
     filter_all: "สัญญาณทั้งหมด",
-    filter_buy: "ขาขึ้น (BUY / ผ่านเกณฑ์)",
+    filter_buy: "ขาขึ้น (BUY / Long)",
+    filter_sell: "ขาลง (SELL / Short)",
     filter_wait: "รอจังหวะ (WAIT / พักตัว)",
     presets_title: "สูตรเทคนิคอลสำเร็จรูป",
     preset_oversold: "RSI < 35 (ขายมากเกินไป)",
     preset_overbought: "RSI > 65 (ซื้อมากเกินไป)",
     engine_title: "ระบบคัดกรอง AI",
     engine_online: "พร้อมทำงาน",
-    stat_bullish: "ขาขึ้น",
-    stat_wait: "รอสัญญาณ",
+    stat_bullish: "BUY",
+    stat_bearish: "SELL",
+    stat_wait: "WAIT",
     search_placeholder: "ค้นหาชื่อย่อหรือชื่อบริษัท...",
     sort_default: "จัดเรียง: ค่าเริ่มต้น",
     sort_change_desc: "% เปลี่ยนแปลง: สูงไปต่ำ",
@@ -188,6 +193,7 @@ const i18n = {
     },
     signals: {
       BUY: "ซื้อ (BUY)",
+      SELL: "ขาย (SELL)",
       WAIT: "รอ (WAIT)",
       PASS: "ผ่านเกณฑ์ (PASS)"
     },
@@ -420,6 +426,7 @@ function updateSidebarCounts() {
   const dict = i18n[state.lang] || i18n.en;
   let totalActive = 0;
   let overallBullish = 0;
+  let overallBearish = 0;
   let overallWait = 0;
 
   Object.keys(state.data).forEach(cat => {
@@ -432,8 +439,11 @@ function updateSidebarCounts() {
     }
 
     items.forEach(item => {
-      if (item.action_signal === 'BUY' || item.action_signal === 'Pass') {
+      const sig = (item.action_signal || '').toUpperCase();
+      if (sig === 'BUY' || sig === 'PASS') {
         overallBullish++;
+      } else if (sig === 'SELL' || sig === 'SHORT') {
+        overallBearish++;
       } else {
         overallWait++;
       }
@@ -441,12 +451,20 @@ function updateSidebarCounts() {
   });
 
   totalTickerCount.textContent = `${totalActive} ${dict.total_active}`;
-  bullishCountStat.textContent = `${overallBullish} ${dict.stat_bullish}`;
-  waitCountStat.textContent = `${overallWait} ${dict.stat_wait}`;
+  bullishCountStat.textContent = `${overallBullish} ${dict.stat_bullish || 'BUY'}`;
+  const bearishCountStat = document.getElementById('bearish-count-stat');
+  if (bearishCountStat) {
+    bearishCountStat.textContent = `${overallBearish} ${dict.stat_bearish || 'SELL'}`;
+  }
+  waitCountStat.textContent = `${overallWait} ${dict.stat_wait || 'WAIT'}`;
 
-  const totalEvaluated = overallBullish + overallWait;
-  const ratio = totalEvaluated > 0 ? (overallBullish / totalEvaluated) * 100 : 50;
-  bullBearRatioBar.style.width = `${ratio}%`;
+  const totalDirectional = overallBullish + overallBearish;
+  const bullRatio = totalDirectional > 0 ? (overallBullish / totalDirectional) * 100 : 50;
+  const bearRatio = totalDirectional > 0 ? (overallBearish / totalDirectional) * 100 : 50;
+
+  if (bullBearRatioBar) bullBearRatioBar.style.width = `${bullRatio}%`;
+  const bearRatioBar = document.getElementById('bear-ratio-bar');
+  if (bearRatioBar) bearRatioBar.style.width = `${bearRatio}%`;
 }
 
 /**
@@ -470,9 +488,20 @@ function getFilteredAndSortedData() {
 
   // 2. Signal & Preset Filter
   if (state.currentFilter === 'BUY') {
-    list = list.filter(item => item.action_signal === 'BUY' || item.action_signal === 'Pass');
+    list = list.filter(item => {
+      const s = (item.action_signal || '').toUpperCase();
+      return s === 'BUY' || s === 'PASS';
+    });
+  } else if (state.currentFilter === 'SELL') {
+    list = list.filter(item => {
+      const s = (item.action_signal || '').toUpperCase();
+      return s === 'SELL' || s === 'SHORT';
+    });
   } else if (state.currentFilter === 'WAIT') {
-    list = list.filter(item => item.action_signal === 'WAIT' || item.action_signal === 'HOLD' || item.action_signal === 'SELL');
+    list = list.filter(item => {
+      const s = (item.action_signal || '').toUpperCase();
+      return s === 'WAIT' || s === 'HOLD';
+    });
   } else if (state.currentFilter === 'RSI_OVERSOLD') {
     list = list.filter(item => item.rsi14 < 35);
   } else if (state.currentFilter === 'RSI_OVERBOUGHT') {
@@ -594,21 +623,32 @@ function renderTable() {
     const macdHistSign = stock.macd.histogram >= 0 ? '+' : '';
     const localizedMacdTrend = dict.macd[stock.macd.trend] || stock.macd.trend;
 
-    // 5. Action Signal (Green for BUY/Pass, Amber for WAIT)
-    const isBuy = stock.action_signal.toUpperCase() === 'BUY' || stock.action_signal.toUpperCase() === 'PASS';
-    const localizedSignal = dict.signals[stock.action_signal.toUpperCase()] || stock.action_signal;
+    // 5. Action Signal (Green for BUY, Red for SELL, Amber for WAIT)
+    const sig = (stock.action_signal || '').toUpperCase();
+    const isBuy = sig === 'BUY' || sig === 'PASS';
+    const isSell = sig === 'SELL' || sig === 'SHORT';
+    const localizedSignal = dict.signals[sig] || stock.action_signal;
 
-    const signalPill = isBuy
-      ? `<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/40 shadow-sm shadow-emerald-500/20">
+    let signalPill;
+    if (isBuy) {
+      signalPill = `<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/40 shadow-sm shadow-emerald-500/20">
           <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
           ${localizedSignal}
           <span class="text-[9px] font-normal text-emerald-400/80">(${stock.confidence || '90%'})</span>
-        </span>`
-      : `<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-bold bg-amber-500/15 text-amber-400 border border-amber-500/40">
+        </span>`;
+    } else if (isSell) {
+      signalPill = `<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-bold bg-rose-500/15 text-rose-400 border border-rose-500/40 shadow-sm shadow-rose-500/20">
+          <span class="w-2 h-2 rounded-full bg-rose-400 animate-pulse"></span>
+          ${localizedSignal}
+          <span class="text-[9px] font-normal text-rose-400/80">(${stock.confidence || '85%'})</span>
+        </span>`;
+    } else {
+      signalPill = `<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-bold bg-amber-500/15 text-amber-400 border border-amber-500/40">
           <span class="w-2 h-2 rounded-full bg-amber-400"></span>
           ${localizedSignal}
           <span class="text-[9px] font-normal text-amber-400/80">(${stock.confidence || '65%'})</span>
         </span>`;
+    }
 
     return `
       <tr class="hover:bg-slate-800/40 transition-colors group">

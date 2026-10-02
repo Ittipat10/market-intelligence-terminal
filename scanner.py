@@ -317,7 +317,7 @@ def scan_single_symbol(symbol: str, name: str, display_ticker: str = None) -> di
         else:
             trend = "Neutral"
 
-        # 4. Action Signal
+        # 4. Action Signal (Bullish BUY / Bearish SELL / Neutral WAIT)
         bullish_score = 0
         if ema20_status == "Above EMA 20":
             bullish_score += 40
@@ -328,12 +328,25 @@ def scan_single_symbol(symbol: str, name: str, display_ticker: str = None) -> di
         elif 35 <= rsi14 < 45 or 70 < rsi14 <= 78:
             bullish_score += 15
 
+        bearish_score = 0
+        if ema20_status == "Below EMA 20":
+            bearish_score += 40
+        if curr_hist < 0:
+            bearish_score += 35
+        if 30 <= rsi14 <= 55:
+            bearish_score += 25
+        elif 22 <= rsi14 < 30 or 55 < rsi14 <= 65:
+            bearish_score += 15
+
         if bullish_score >= 75 and rsi14 < 78:
             action_signal = "BUY"
             confidence = f"{min(98, bullish_score)}%"
+        elif bearish_score >= 75 and rsi14 > 22:
+            action_signal = "SELL"
+            confidence = f"{min(98, bearish_score)}%"
         else:
             action_signal = "WAIT"
-            confidence = f"{max(50, 100 - bullish_score)}%"
+            confidence = f"{max(50, 100 - max(bullish_score, bearish_score))}%"
 
         return {
             "ticker": display_ticker,
