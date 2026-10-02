@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>Market Intelligence by Job Bangpla</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -216,23 +219,23 @@
           </div>
           <div class="space-y-1">
             <button data-filter="ALL" class="signal-filter-btn active w-full text-left px-3 py-1.5 rounded-md text-xs font-medium text-white bg-slate-800/90 border border-slate-700/80 flex items-center justify-between">
-              <span data-i18n="filter_all">All Signals</span>
-              <span class="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
+              <span class="pointer-events-none" data-i18n="filter_all">All Signals</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-blue-400 pointer-events-none"></span>
             </button>
             <button data-filter="BUY" class="signal-filter-btn w-full text-left px-3 py-1.5 rounded-md text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 flex items-center justify-between">
-              <span class="flex items-center gap-1.5">
+              <span class="flex items-center gap-1.5 pointer-events-none">
                 <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
                 <span data-i18n="filter_buy">Bullish (BUY / Long)</span>
               </span>
             </button>
             <button data-filter="SELL" class="signal-filter-btn w-full text-left px-3 py-1.5 rounded-md text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 flex items-center justify-between">
-              <span class="flex items-center gap-1.5">
+              <span class="flex items-center gap-1.5 pointer-events-none">
                 <span class="w-1.5 h-1.5 rounded-full bg-rose-400"></span>
                 <span data-i18n="filter_sell">Bearish (SELL / Short)</span>
               </span>
             </button>
             <button data-filter="WAIT" class="signal-filter-btn w-full text-left px-3 py-1.5 rounded-md text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 flex items-center justify-between">
-              <span class="flex items-center gap-1.5">
+              <span class="flex items-center gap-1.5 pointer-events-none">
                 <span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
                 <span data-i18n="filter_wait">Wait / Neutral</span>
               </span>
@@ -421,6 +424,6 @@
   </div>
 
   <!-- Application Logic -->
-  <script src="app.js"></script>
+  <script src="app.js?v=2.2"></script>
 </body>
 </html>
