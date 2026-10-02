@@ -104,9 +104,9 @@
         "histogram": -0.2895,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.6M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "KLAC",
@@ -176,9 +176,9 @@
         "histogram": -0.6144,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.0M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "ORCL",
@@ -194,9 +194,9 @@
         "histogram": -0.9834,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "30.1M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "CHRW",
@@ -536,9 +536,9 @@
         "histogram": -0.9621,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.7M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "EMR",
@@ -572,9 +572,9 @@
         "histogram": -0.1957,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "8.3M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "CSX",
@@ -608,9 +608,9 @@
         "histogram": -0.0399,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "7.7M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "NXPI",
@@ -644,9 +644,9 @@
         "histogram": -0.0082,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.3M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "HUBB",
@@ -682,7 +682,7 @@
       },
       "action_signal": "WAIT",
       "volume": "11.6M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "PANW",
@@ -716,9 +716,9 @@
         "histogram": -0.525,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "775.9K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "FOXA",
@@ -734,9 +734,9 @@
         "histogram": -0.4856,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.7M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "GOOG",
@@ -754,7 +754,7 @@
       },
       "action_signal": "WAIT",
       "volume": "17.4M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "GOOGL",
@@ -772,7 +772,7 @@
       },
       "action_signal": "WAIT",
       "volume": "22.7M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "QCOM",
@@ -824,9 +824,9 @@
         "histogram": -0.1672,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "10.4M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "CRWD",
@@ -860,9 +860,9 @@
         "histogram": -1.32,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.1M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "FSLR",
@@ -878,9 +878,9 @@
         "histogram": -1.67,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.9M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "HRL",
@@ -952,7 +952,7 @@
       },
       "action_signal": "WAIT",
       "volume": "33.0M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "EQIX",
@@ -970,7 +970,7 @@
       },
       "action_signal": "WAIT",
       "volume": "330.0K",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "LH",
@@ -986,9 +986,9 @@
         "histogram": -1.31,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "586.9K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "WM",
@@ -1004,9 +1004,9 @@
         "histogram": -0.334,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.4M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "ELV",
@@ -1022,9 +1022,9 @@
         "histogram": -3.16,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "888.7K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "RSG",
@@ -1040,9 +1040,9 @@
         "histogram": -1.08,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.2M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "PCG",
@@ -1060,7 +1060,7 @@
       },
       "action_signal": "WAIT",
       "volume": "41.5M",
-      "confidence": "65%"
+      "confidence": "50%"
     },
     {
       "ticker": "MS",
@@ -1076,9 +1076,9 @@
         "histogram": -1.32,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.3M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "XEL",
@@ -1148,9 +1148,9 @@
         "histogram": -0.6764,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "7.6M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "DLR",
@@ -1166,9 +1166,9 @@
         "histogram": -0.444,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.7M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "FDX",
@@ -1184,9 +1184,9 @@
         "histogram": -0.6647,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.5M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "O",
@@ -1204,7 +1204,7 @@
       },
       "action_signal": "WAIT",
       "volume": "7.6M",
-      "confidence": "100%"
+      "confidence": "50%"
     },
     {
       "ticker": "ABBV",
@@ -1238,9 +1238,9 @@
         "histogram": -0.2832,
         "trend": "Bearish Breakdown"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.9M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "IR",
@@ -1274,9 +1274,9 @@
         "histogram": -0.4211,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "13.8M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "FAST",
@@ -1346,9 +1346,9 @@
         "histogram": -0.5423,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.9M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "DTE",
@@ -1418,9 +1418,9 @@
         "histogram": -0.0302,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "20.6M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "D",
@@ -1436,9 +1436,9 @@
         "histogram": -0.0577,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.7M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "FITB",
@@ -1454,9 +1454,9 @@
         "histogram": -0.1002,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "5.6M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "SYK",
@@ -1490,9 +1490,9 @@
         "histogram": -0.4702,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.5M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "ZTS",
@@ -1508,9 +1508,9 @@
         "histogram": -0.2302,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "5.3M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "ABT",
@@ -1526,9 +1526,9 @@
         "histogram": -0.532,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "8.6M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "MTB",
@@ -1544,9 +1544,9 @@
         "histogram": -0.4826,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "916.2K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "ITW",
@@ -1562,9 +1562,9 @@
         "histogram": -0.2472,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.1M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "IVZ",
@@ -1580,9 +1580,9 @@
         "histogram": -0.0678,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.9M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "HCA",
@@ -1616,9 +1616,9 @@
         "histogram": -1.61,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.0M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "APA",
@@ -1652,9 +1652,9 @@
         "histogram": -0.3241,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "7.8M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "TDY",
@@ -1706,9 +1706,9 @@
         "histogram": -0.2385,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.2M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "BA",
@@ -1724,9 +1724,9 @@
         "histogram": -0.3976,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "12.6M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "GS",
@@ -1742,9 +1742,9 @@
         "histogram": -4.51,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.6M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "EXC",
@@ -1760,9 +1760,9 @@
         "histogram": -0.0433,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "9.8M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "NEE",
@@ -1778,9 +1778,9 @@
         "histogram": -0.1602,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "17.5M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "COST",
@@ -1814,9 +1814,9 @@
         "histogram": -0.2459,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.3M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "HSY",
@@ -1832,9 +1832,9 @@
         "histogram": -0.8647,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.2M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "MPC",
@@ -1886,9 +1886,9 @@
         "histogram": -0.2917,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.0M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "EVRG",
@@ -1940,9 +1940,9 @@
         "histogram": -0.9842,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.1M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "SRE",
@@ -1958,9 +1958,9 @@
         "histogram": -0.0306,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.9M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "MA",
@@ -1976,9 +1976,9 @@
         "histogram": -2.01,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.5M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "OXY",
@@ -1996,7 +1996,7 @@
       },
       "action_signal": "WAIT",
       "volume": "8.9M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "CF",
@@ -2012,9 +2012,9 @@
         "histogram": -1.66,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.9M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "MCK",
@@ -2066,9 +2066,9 @@
         "histogram": -0.8667,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "9.2M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "UBER",
@@ -2084,9 +2084,9 @@
         "histogram": -0.1987,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "15.5M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "DUK",
@@ -2102,9 +2102,9 @@
         "histogram": -0.105,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.9M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "WELL",
@@ -2120,9 +2120,9 @@
         "histogram": -0.4547,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.6M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "AFL",
@@ -2138,9 +2138,9 @@
         "histogram": -0.2588,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.9M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "BBY",
@@ -2156,9 +2156,9 @@
         "histogram": -0.7179,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.2M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "META",
@@ -2194,7 +2194,7 @@
       },
       "action_signal": "WAIT",
       "volume": "7.7M",
-      "confidence": "65%"
+      "confidence": "50%"
     },
     {
       "ticker": "SBAC",
@@ -2210,9 +2210,9 @@
         "histogram": -2.06,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "813.3K",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "PEG",
@@ -2246,9 +2246,9 @@
         "histogram": -0.1694,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "7.5M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "ZBH",
@@ -2264,9 +2264,9 @@
         "histogram": -0.5749,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.0M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "WFC",
@@ -2282,9 +2282,9 @@
         "histogram": -0.644,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "10.1M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "HIG",
@@ -2300,9 +2300,9 @@
         "histogram": -0.4658,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.6M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "V",
@@ -2318,9 +2318,9 @@
         "histogram": -1.21,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "PEP",
@@ -2336,9 +2336,9 @@
         "histogram": -0.568,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.1M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "HST",
@@ -2372,9 +2372,9 @@
         "histogram": -0.0052,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.2M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "EFX",
@@ -2390,9 +2390,9 @@
         "histogram": -1.93,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.5M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "CDNS",
@@ -2444,9 +2444,9 @@
         "histogram": -0.5811,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "11.1M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "CMS",
@@ -2464,7 +2464,7 @@
       },
       "action_signal": "WAIT",
       "volume": "5.0M",
-      "confidence": "65%"
+      "confidence": "50%"
     },
     {
       "ticker": "KEY",
@@ -2480,9 +2480,9 @@
         "histogram": -0.0502,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "12.5M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "HD",
@@ -2498,9 +2498,9 @@
         "histogram": -0.9549,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.7M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "KIM",
@@ -2518,7 +2518,7 @@
       },
       "action_signal": "WAIT",
       "volume": "4.5M",
-      "confidence": "65%"
+      "confidence": "50%"
     },
     {
       "ticker": "PSX",
@@ -2588,9 +2588,9 @@
         "histogram": -0.1616,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "15.1M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "COF",
@@ -2606,9 +2606,9 @@
         "histogram": -0.6954,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.3M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "IDXX",
@@ -2660,9 +2660,9 @@
         "histogram": -0.043,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.1M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "MET",
@@ -2678,9 +2678,9 @@
         "histogram": -0.3868,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.0M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "REGN",
@@ -2696,9 +2696,9 @@
         "histogram": -7.99,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "607.7K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "EOG",
@@ -2714,9 +2714,9 @@
         "histogram": -0.483,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.6M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "BAC",
@@ -2734,7 +2734,7 @@
       },
       "action_signal": "WAIT",
       "volume": "34.8M",
-      "confidence": "100%"
+      "confidence": "50%"
     },
     {
       "ticker": "MCD",
@@ -2750,9 +2750,9 @@
         "histogram": -1.11,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.3M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "KMB",
@@ -2768,9 +2768,9 @@
         "histogram": -0.0894,
         "trend": "Bearish Breakdown"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.4M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "WMT",
@@ -2786,9 +2786,9 @@
         "histogram": -0.311,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "22.9M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "T",
@@ -2804,9 +2804,9 @@
         "histogram": -0.2211,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "24.5M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "LMT",
@@ -2822,9 +2822,9 @@
         "histogram": -1.47,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.1M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "CE",
@@ -2840,9 +2840,9 @@
         "histogram": -0.2994,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "WBD",
@@ -2876,9 +2876,9 @@
         "histogram": -0.1453,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.4M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "MDT",
@@ -2894,9 +2894,9 @@
         "histogram": -0.6465,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "33.2M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "PSA",
@@ -2912,9 +2912,9 @@
         "histogram": -0.1111,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "816.5K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "FICO",
@@ -2930,9 +2930,9 @@
         "histogram": -27.0,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.6M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "HPQ",
@@ -2966,9 +2966,9 @@
         "histogram": -0.2989,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "8.1M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "ETSY",
@@ -3002,9 +3002,9 @@
         "histogram": -0.3445,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.5M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "ED",
@@ -3020,9 +3020,9 @@
         "histogram": -0.0612,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.6M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "GWW",
@@ -3056,9 +3056,9 @@
         "histogram": -0.6225,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.0M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "CINF",
@@ -3074,9 +3074,9 @@
         "histogram": -0.3313,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "557.2K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "FE",
@@ -3092,9 +3092,9 @@
         "histogram": -0.0978,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "5.6M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "VZ",
@@ -3110,9 +3110,9 @@
         "histogram": -0.3749,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "19.2M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "SNPS",
@@ -3146,9 +3146,9 @@
         "histogram": -2.12,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "613.0K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "AEP",
@@ -3182,9 +3182,9 @@
         "histogram": -0.4093,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.8M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "SBUX",
@@ -3202,7 +3202,7 @@
       },
       "action_signal": "WAIT",
       "volume": "5.9M",
-      "confidence": "65%"
+      "confidence": "50%"
     },
     {
       "ticker": "CARR",
@@ -3238,7 +3238,7 @@
       },
       "action_signal": "WAIT",
       "volume": "6.6M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "BALL",
@@ -3254,9 +3254,9 @@
         "histogram": -0.2923,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.8M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "JPM",
@@ -3272,9 +3272,9 @@
         "histogram": -1.59,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.5M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "COP",
@@ -3290,9 +3290,9 @@
         "histogram": -0.9944,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "5.2M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "PCAR",
@@ -3310,7 +3310,7 @@
       },
       "action_signal": "WAIT",
       "volume": "4.3M",
-      "confidence": "100%"
+      "confidence": "50%"
     },
     {
       "ticker": "CPRT",
@@ -3326,9 +3326,9 @@
         "histogram": -0.2851,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "8.4M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "ETN",
@@ -3362,9 +3362,9 @@
         "histogram": -1.83,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.7M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "CLX",
@@ -3380,9 +3380,9 @@
         "histogram": -0.0616,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.2M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "CL",
@@ -3398,9 +3398,9 @@
         "histogram": -0.1164,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.5M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "ESS",
@@ -3434,9 +3434,9 @@
         "histogram": -1.26,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "839.7K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "SYY",
@@ -3452,9 +3452,9 @@
         "histogram": -0.0593,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "PM",
@@ -3470,9 +3470,9 @@
         "histogram": -0.2942,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.1M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "VMC",
@@ -3506,9 +3506,9 @@
         "histogram": -1.65,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "935.7K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "SHW",
@@ -3542,9 +3542,9 @@
         "histogram": -0.0889,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "ALB",
@@ -3560,9 +3560,9 @@
         "histogram": -0.7216,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.0M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "FANG",
@@ -3578,9 +3578,9 @@
         "histogram": -1.03,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.1M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "BLK",
@@ -3614,9 +3614,9 @@
         "histogram": -0.5119,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.1M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "PRU",
@@ -3632,9 +3632,9 @@
         "histogram": -0.6233,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.9M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "SPGI",
@@ -3650,9 +3650,9 @@
         "histogram": -1.98,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.8M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "PYPL",
@@ -3704,9 +3704,9 @@
         "histogram": -0.1813,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "9.6M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "KO",
@@ -3722,9 +3722,9 @@
         "histogram": -0.3192,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "19.3M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "VLO",
@@ -3758,9 +3758,9 @@
         "histogram": -1.05,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.4M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "INTC",
@@ -3794,9 +3794,9 @@
         "histogram": -2.26,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.7M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "LLY",
@@ -3884,9 +3884,9 @@
         "histogram": -0.3352,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.0M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "PLTR",
@@ -3940,7 +3940,7 @@
       },
       "action_signal": "WAIT",
       "volume": "1.0M",
-      "confidence": "65%"
+      "confidence": "50%"
     },
     {
       "ticker": "BDX",
@@ -3956,9 +3956,9 @@
         "histogram": -0.8744,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.9M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "CBRE",
@@ -3974,9 +3974,9 @@
         "histogram": -0.895,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.9M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "CME",
@@ -3992,9 +3992,9 @@
         "histogram": -1.54,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.5M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "KR",
@@ -4012,7 +4012,7 @@
       },
       "action_signal": "WAIT",
       "volume": "4.7M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "LHX",
@@ -4030,7 +4030,7 @@
       },
       "action_signal": "WAIT",
       "volume": "1.5M",
-      "confidence": "65%"
+      "confidence": "50%"
     },
     {
       "ticker": "CAH",
@@ -4066,7 +4066,7 @@
       },
       "action_signal": "WAIT",
       "volume": "7.5M",
-      "confidence": "65%"
+      "confidence": "50%"
     },
     {
       "ticker": "CRM",
@@ -4082,9 +4082,9 @@
         "histogram": -2.95,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "7.8M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "LOW",
@@ -4100,9 +4100,9 @@
         "histogram": -0.6903,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.7M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "ICE",
@@ -4118,9 +4118,9 @@
         "histogram": -0.7774,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.9M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "COO",
@@ -4154,9 +4154,9 @@
         "histogram": -1.3,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "689.3K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "GE",
@@ -4174,7 +4174,7 @@
       },
       "action_signal": "WAIT",
       "volume": "4.1M",
-      "confidence": "65%"
+      "confidence": "50%"
     },
     {
       "ticker": "MAA",
@@ -4192,7 +4192,7 @@
       },
       "action_signal": "WAIT",
       "volume": "1.5M",
-      "confidence": "100%"
+      "confidence": "50%"
     },
     {
       "ticker": "AZO",
@@ -4208,9 +4208,9 @@
         "histogram": -1.77,
         "trend": "Bearish Breakdown"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "169.1K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "IQV",
@@ -4226,9 +4226,9 @@
         "histogram": -2.14,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.4M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "APTV",
@@ -4262,9 +4262,9 @@
         "histogram": -0.3365,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.2M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "JNJ",
@@ -4280,9 +4280,9 @@
         "histogram": -1.65,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "10.2M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "AMGN",
@@ -4316,9 +4316,9 @@
         "histogram": -0.1136,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "9.9M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "ALGN",
@@ -4352,9 +4352,9 @@
         "histogram": -0.0609,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "34.9M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "NFLX",
@@ -4370,9 +4370,9 @@
         "histogram": -0.7659,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "38.2M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "GEN",
@@ -4388,9 +4388,9 @@
         "histogram": -0.7453,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "11.8M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "LVS",
@@ -4408,7 +4408,7 @@
       },
       "action_signal": "WAIT",
       "volume": "7.3M",
-      "confidence": "100%"
+      "confidence": "50%"
     },
     {
       "ticker": "GM",
@@ -4424,9 +4424,9 @@
         "histogram": -0.6642,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "9.1M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "IBM",
@@ -4442,9 +4442,9 @@
         "histogram": -1.27,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "7.6M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "CTAS",
@@ -4460,9 +4460,9 @@
         "histogram": -0.4354,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.9M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "BIIB",
@@ -4478,9 +4478,9 @@
         "histogram": -0.3234,
         "trend": "Bearish Breakdown"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "773.2K",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "MCO",
@@ -4496,9 +4496,9 @@
         "histogram": -2.38,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.6M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "F",
@@ -4514,9 +4514,9 @@
         "histogram": -0.1097,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "48.9M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "FMC",
@@ -4532,9 +4532,9 @@
         "histogram": -0.2299,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "7.1M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "BSX",
@@ -4550,9 +4550,9 @@
         "histogram": -0.0209,
         "trend": "Bearish Breakdown"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "18.3M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "LULU",
@@ -4570,7 +4570,7 @@
       },
       "action_signal": "WAIT",
       "volume": "5.8M",
-      "confidence": "65%"
+      "confidence": "50%"
     },
     {
       "ticker": "DHI",
@@ -4586,9 +4586,9 @@
         "histogram": -0.1821,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "INCY",
@@ -4604,9 +4604,9 @@
         "histogram": -1.07,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.2M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "IP",
@@ -4622,9 +4622,9 @@
         "histogram": -0.1408,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "5.6M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "SCHW",
@@ -4640,9 +4640,9 @@
         "histogram": -0.683,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "7.6M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "MSCI",
@@ -4658,9 +4658,9 @@
         "histogram": -0.7548,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "483.8K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "KMX",
@@ -4676,9 +4676,9 @@
         "histogram": -0.3842,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "GILD",
@@ -4694,9 +4694,9 @@
         "histogram": -0.8437,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "CHTR",
@@ -4712,9 +4712,9 @@
         "histogram": -1.66,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.0M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "CDW",
@@ -4730,9 +4730,9 @@
         "histogram": -1.84,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.3M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "PAYX",
@@ -4748,9 +4748,9 @@
         "histogram": -1.42,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.3M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "MU",
@@ -4784,9 +4784,9 @@
         "histogram": -1.83,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "751.7K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "ISRG",
@@ -4820,9 +4820,9 @@
         "histogram": -0.3156,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.6M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "ADP",
@@ -4838,9 +4838,9 @@
         "histogram": -1.37,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.1M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "ROST",
@@ -4874,9 +4874,9 @@
         "histogram": -0.8458,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.5M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "NOW",
@@ -4892,9 +4892,9 @@
         "histogram": -1.03,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "8.7M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "AJG",
@@ -4910,9 +4910,9 @@
         "histogram": -0.767,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.4M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "VRSK",
@@ -4928,9 +4928,9 @@
         "histogram": -0.647,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "825.1K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "LEN",
@@ -4964,9 +4964,9 @@
         "histogram": -0.2556,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.5M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "LDOS",
@@ -4982,9 +4982,9 @@
         "histogram": -0.9431,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "890.2K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "NKE",
@@ -5000,9 +5000,9 @@
         "histogram": -0.0336,
         "trend": "Bearish Breakdown"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "141.7M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "IT",
@@ -5018,9 +5018,9 @@
         "histogram": -0.1582,
         "trend": "Bearish Breakdown"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "627.6K",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "FDS",
@@ -5036,9 +5036,9 @@
         "histogram": -1.13,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "564.8K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "CTVA",
@@ -5056,7 +5056,7 @@
       },
       "action_signal": "WAIT",
       "volume": "78.6M",
-      "confidence": "100%"
+      "confidence": "50%"
     },
     {
       "ticker": "ACN",
@@ -5110,9 +5110,9 @@
         "histogram": -0.907,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "38.3M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "TOP.BK",
@@ -5236,9 +5236,9 @@
         "histogram": -0.416,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "5.1M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "BGRIM.BK",
@@ -5254,9 +5254,9 @@
         "histogram": -0.0805,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "11.5M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "SJWD.BK",
@@ -5272,9 +5272,9 @@
         "histogram": -0.0429,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.8M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "THCOM.BK",
@@ -5290,9 +5290,9 @@
         "histogram": -0.026,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.3M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "PSL.BK",
@@ -5308,9 +5308,9 @@
         "histogram": -0.1899,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "7.0M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "GPSC.BK",
@@ -5326,9 +5326,9 @@
         "histogram": -0.0495,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.8M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "IRPC.BK",
@@ -5380,9 +5380,9 @@
         "histogram": -0.2379,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "124.6M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "BCH.BK",
@@ -5416,9 +5416,9 @@
         "histogram": -0.1824,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "72.4M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "ERW.BK",
@@ -5434,9 +5434,9 @@
         "histogram": -0.0323,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "8.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "COM7.BK",
@@ -5488,9 +5488,9 @@
         "histogram": -0.0543,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.6M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "PTTGC.BK",
@@ -5524,9 +5524,9 @@
         "histogram": -0.1554,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.9M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "KBANK.BK",
@@ -5542,9 +5542,9 @@
         "histogram": -2.39,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "22.1M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "OSP.BK",
@@ -5578,9 +5578,9 @@
         "histogram": -0.0045,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "14.6M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "KTB.BK",
@@ -5596,9 +5596,9 @@
         "histogram": -0.3826,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "105.1M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "SISB.BK",
@@ -5614,9 +5614,9 @@
         "histogram": -0.0115,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "585.8K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "NEX.BK",
@@ -5632,9 +5632,9 @@
         "histogram": -0.0056,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.1M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "VGI.BK",
@@ -5650,9 +5650,9 @@
         "histogram": -0.0039,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "41.2M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "BA.BK",
@@ -5686,9 +5686,9 @@
         "histogram": -0.9254,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "10.2M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "GUNKUL.BK",
@@ -5704,9 +5704,9 @@
         "histogram": -0.0105,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "41.4M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "MINT.BK",
@@ -5722,9 +5722,9 @@
         "histogram": -0.0316,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "18.0M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "TCAP.BK",
@@ -5740,9 +5740,9 @@
         "histogram": -0.4681,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.2M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "IVL.BK",
@@ -5758,9 +5758,9 @@
         "histogram": -0.4396,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "22.0M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "MTC.BK",
@@ -5778,7 +5778,7 @@
       },
       "action_signal": "WAIT",
       "volume": "5.8M",
-      "confidence": "100%"
+      "confidence": "50%"
     },
     {
       "ticker": "CKP.BK",
@@ -5794,9 +5794,9 @@
         "histogram": -0.0049,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "971.6K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "CRC.BK",
@@ -5830,9 +5830,9 @@
         "histogram": -0.3909,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "11.5M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "BAM.BK",
@@ -5848,9 +5848,9 @@
         "histogram": -0.0241,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "11.3M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "BEM.BK",
@@ -5866,9 +5866,9 @@
         "histogram": -0.0403,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "33.2M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "EA.BK",
@@ -5884,9 +5884,9 @@
         "histogram": -0.0174,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "15.6M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "TTB.BK",
@@ -5902,9 +5902,9 @@
         "histogram": -0.0225,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "496.2M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "ITC.BK",
@@ -5920,9 +5920,9 @@
         "histogram": -0.0552,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.9M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "TASCO.BK",
@@ -5956,9 +5956,9 @@
         "histogram": -0.0741,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "29.9M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "BBL.BK",
@@ -5974,9 +5974,9 @@
         "histogram": -1.05,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "5.5M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "BDMS.BK",
@@ -5992,9 +5992,9 @@
         "histogram": -0.1405,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "46.2M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "PSH.BK",
@@ -6010,9 +6010,9 @@
         "histogram": -0.0004,
         "trend": "Bearish Breakdown"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "392.1K",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "PR9.BK",
@@ -6028,9 +6028,9 @@
         "histogram": -0.1216,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "484.5K",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "JMART.BK",
@@ -6046,9 +6046,9 @@
         "histogram": -0.0033,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "SAWAD.BK",
@@ -6064,9 +6064,9 @@
         "histogram": -0.0631,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.5M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "KKP.BK",
@@ -6082,9 +6082,9 @@
         "histogram": -0.7731,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "5.7M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "BLA.BK",
@@ -6100,9 +6100,9 @@
         "histogram": -0.1569,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.1M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "GULF.BK",
@@ -6118,9 +6118,9 @@
         "histogram": -0.1466,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "34.0M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "CPN.BK",
@@ -6136,9 +6136,9 @@
         "histogram": -0.1665,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "6.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "TISCO.BK",
@@ -6154,9 +6154,9 @@
         "histogram": -0.2769,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "AP.BK",
@@ -6172,9 +6172,9 @@
         "histogram": -0.0198,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.1M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "ADVANC.BK",
@@ -6208,9 +6208,9 @@
         "histogram": -0.1567,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "23.9M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "BTG.BK",
@@ -6226,9 +6226,9 @@
         "histogram": -0.0774,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "820.9K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "BTS.BK",
@@ -6244,9 +6244,9 @@
         "histogram": -0.0054,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "15.6M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "CCET.BK",
@@ -6262,9 +6262,9 @@
         "histogram": -0.0204,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "32.5M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "EGCO.BK",
@@ -6280,9 +6280,9 @@
         "histogram": -0.3892,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "822.8K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "JAS.BK",
@@ -6300,7 +6300,7 @@
       },
       "action_signal": "WAIT",
       "volume": "37.6M",
-      "confidence": "65%"
+      "confidence": "50%"
     },
     {
       "ticker": "KTC.BK",
@@ -6316,9 +6316,9 @@
         "histogram": -0.3023,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "11.1M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "LH.BK",
@@ -6336,7 +6336,7 @@
       },
       "action_signal": "WAIT",
       "volume": "26.7M",
-      "confidence": "100%"
+      "confidence": "50%"
     },
     {
       "ticker": "MASTER.BK",
@@ -6352,9 +6352,9 @@
         "histogram": -0.02,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "133.4K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "JMT.BK",
@@ -6370,9 +6370,9 @@
         "histogram": -0.0143,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.4M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "M.BK",
@@ -6388,9 +6388,9 @@
         "histogram": -0.0921,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "120.7K",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "OR.BK",
@@ -6406,9 +6406,9 @@
         "histogram": -0.0253,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "PRM.BK",
@@ -6424,9 +6424,9 @@
         "histogram": -0.1235,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.3M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "ROJNA.BK",
@@ -6460,9 +6460,9 @@
         "histogram": -0.5545,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "13.7M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "SAPPE.BK",
@@ -6478,9 +6478,9 @@
         "histogram": -0.0988,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "41.0K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "SIRI.BK",
@@ -6496,9 +6496,9 @@
         "histogram": -0.003,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "25.0M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "STA.BK",
@@ -6532,9 +6532,9 @@
         "histogram": -0.0356,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.5M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "TLI.BK",
@@ -6550,9 +6550,9 @@
         "histogram": -0.0323,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "13.7M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "TKN.BK",
@@ -6586,9 +6586,9 @@
         "histogram": -0.0092,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "4.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "TU.BK",
@@ -6604,9 +6604,9 @@
         "histogram": -0.0802,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "28.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "TTW.BK",
@@ -6622,9 +6622,9 @@
         "histogram": -0.0148,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "617.8K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "WHA.BK",
@@ -6640,9 +6640,9 @@
         "histogram": -0.0061,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "67.4M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "SCC.BK",
@@ -6658,9 +6658,9 @@
         "histogram": -2.67,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "3.5M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "CPF.BK",
@@ -6676,9 +6676,9 @@
         "histogram": -0.2074,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "29.0M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "CENTEL.BK",
@@ -6730,9 +6730,9 @@
         "histogram": -0.0063,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "11.2M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "MOSHI.BK",
@@ -6748,9 +6748,9 @@
         "histogram": -0.0353,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "235.6K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "QH.BK",
@@ -6766,9 +6766,9 @@
         "histogram": -0.002,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "8.0M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "MEGA.BK",
@@ -6784,9 +6784,9 @@
         "histogram": -0.1786,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "155.6K",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "DELTA.BK",
@@ -6820,9 +6820,9 @@
         "histogram": -0.1784,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "12.6M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "BJC.BK",
@@ -6856,9 +6856,9 @@
         "histogram": -0.0944,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "11.0M",
-      "confidence": "100%"
+      "confidence": "90%"
     },
     {
       "ticker": "ICHI.BK",
@@ -6874,9 +6874,9 @@
         "histogram": -0.0257,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "7.1M",
-      "confidence": "100%"
+      "confidence": "98%"
     },
     {
       "ticker": "BH.BK",
@@ -6892,9 +6892,9 @@
         "histogram": -1.01,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.8M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "CK.BK",
@@ -6946,9 +6946,9 @@
         "histogram": -0.0056,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "2.4M",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "HANA.BK",
@@ -6984,9 +6984,9 @@
         "histogram": -0.5966,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "38.4K",
-      "confidence": "85%"
+      "confidence": "98%"
     },
     {
       "ticker": "USD Futures",
@@ -7020,9 +7020,9 @@
         "histogram": -24.83,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "163.5K",
-      "confidence": "100%"
+      "confidence": "98%"
     }
   ],
   "crypto": [
@@ -7400,9 +7400,9 @@
         "histogram": -0.0006,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "439.0M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "SOL/USDT",
@@ -7546,7 +7546,7 @@
       },
       "action_signal": "WAIT",
       "volume": "17.6M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "BNB/USDT",
@@ -7724,9 +7724,9 @@
         "histogram": -0.051,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "38.3M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "OP/USDT",
@@ -7796,9 +7796,9 @@
         "histogram": -5.83,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "115.5M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "BLUR/USDT",
@@ -7852,7 +7852,7 @@
       },
       "action_signal": "WAIT",
       "volume": "4.6M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "ONDO/USDT",
@@ -7906,7 +7906,7 @@
       },
       "action_signal": "WAIT",
       "volume": "18.4M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "ADA/USDT",
@@ -7940,9 +7940,9 @@
         "histogram": -0.0617,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "68.9M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "EGLD/USDT",
@@ -8102,9 +8102,9 @@
         "histogram": -0.0004,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.38B",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "CFX/USDT",
@@ -8120,9 +8120,9 @@
         "histogram": -0.0002,
         "trend": "Bearish Breakdown"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "12.8M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "NEAR/USDT",
@@ -8156,9 +8156,9 @@
         "histogram": -0.0378,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "56.3M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "XLM/USDT",
@@ -8192,9 +8192,9 @@
         "histogram": -0.0056,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "205.9M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "ZEC/USDT",
@@ -8210,9 +8210,9 @@
         "histogram": -48.38,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "1.16B",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "AVAX/USDT",
@@ -8390,9 +8390,9 @@
         "histogram": -0.0001,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "15.0M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "FLOKI/USDT",
@@ -8410,7 +8410,7 @@
       },
       "action_signal": "WAIT",
       "volume": "39.3M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "SUI/USDT",
@@ -8480,9 +8480,9 @@
         "histogram": -0.019,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "41.5M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "RUNE/USDT",
@@ -8534,9 +8534,9 @@
         "histogram": -0.0027,
         "trend": "Bearish Momentum"
       },
-      "action_signal": "WAIT",
+      "action_signal": "SELL",
       "volume": "7.9M",
-      "confidence": "75%"
+      "confidence": "98%"
     },
     {
       "ticker": "LINK/USDT",
@@ -8626,7 +8626,7 @@
       },
       "action_signal": "WAIT",
       "volume": "110.5M",
-      "confidence": "75%"
+      "confidence": "50%"
     },
     {
       "ticker": "JASMY/USDT",
@@ -8660,9 +8660,9 @@
         "histogram": 0.0,
         "trend": "Bullish"
       },
-      "action_signal": "BUY",
+      "action_signal": "WAIT",
       "volume": "73.9M",
-      "confidence": "98%"
+      "confidence": "50%"
     }
   ]
 }
