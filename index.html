@@ -75,7 +75,7 @@
   <!-- TOP HEADER -->
   <header class="h-16 border-b border-slate-800 bg-[#0d131f]/95 backdrop-blur-md sticky top-0 z-30 flex items-center justify-between px-3 sm:px-6">
     <!-- Branding / Logo -->
-    <div class="flex items-center gap-2.5 sm:gap-3">
+    <a href="index.html" class="flex items-center gap-2.5 sm:gap-3 group cursor-pointer">
       <div class="w-9 h-9 rounded-lg bg-gradient-to-tr from-blue-600 via-indigo-500 to-cyan-400 p-[1px] shadow-lg shadow-blue-500/20 flex items-center justify-center shrink-0">
         <div class="w-full h-full bg-[#0d131f] rounded-lg flex items-center justify-center">
           <svg class="w-5 h-5 text-cyan-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -97,7 +97,28 @@
         </div>
         <p class="text-[10px] sm:text-[11px] font-semibold text-slate-400 tracking-wider">by Job Bangpla</p>
       </div>
-    </div>
+    </a>
+
+    <!-- Top Navigation Switcher Bar -->
+    <nav class="flex items-center gap-1 sm:gap-1.5 p-1 bg-slate-900/90 border border-slate-700/80 rounded-xl shadow-inner shrink-0" aria-label="Scanner Modes">
+      <a href="index.html" class="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold bg-blue-600 text-white shadow-md transition-all">
+        <svg class="w-3.5 h-3.5 text-blue-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7"></rect>
+          <rect x="14" y="3" width="7" height="7"></rect>
+          <rect x="14" y="14" width="7" height="7"></rect>
+          <rect x="3" y="14" width="7" height="7"></rect>
+        </svg>
+        <span class="inline">Daily Scanner</span>
+      </a>
+      <a href="weekly-monthly.html" class="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-all group">
+        <svg class="w-3.5 h-3.5 text-amber-400 group-hover:scale-110 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+          <polyline points="16 7 22 7 22 13"></polyline>
+        </svg>
+        <span class="inline">Weekly & Monthly</span>
+        <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">EMA 10</span>
+      </a>
+    </nav>
 
     <!-- Quick Market Ticker Bar (Desktop) -->
     <div class="hidden lg:flex items-center gap-6 px-4 py-1.5 rounded-lg bg-slate-900/60 border border-slate-800/80 text-xs font-mono-num" id="quick-ticker-bar">

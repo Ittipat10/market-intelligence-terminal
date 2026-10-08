@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="th" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <title>Weekly & Monthly EMA 10 Scanner | Market Intelligence</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            terminal: {
+              bg: '#090d16',
+              sidebar: '#0d131f',
+              card: '#111827',
+              border: '#1e293b',
+              hover: '#1e293b80',
+              accent: '#3b82f6',
+              bullish: '#10b981',
+              bearish: '#f43f5e',
+              neutral: '#f59e0b'
+            }
+          },
+          fontFamily: {
+            mono: ['"JetBrains Mono"', 'Menlo', 'Consolas', 'monospace'],
+            sans: ['"Inter"', 'system-ui', '-apple-system', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #090d16;
+      color: #e2e8f0;
+      overflow-x: hidden;
+    }
+    .font-mono-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-feature-settings: "tnum" 1;
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0d131f;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #253349;
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #384c6c;
+    }
+    .badge-cross {
+      animation: pulseGlow 2s infinite;
+    }
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 8px rgba(245, 158, 11, 0.4); }
+      50% { box-shadow: 0 0 16px rgba(245, 158, 11, 0.8); }
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col bg-[#090d16] text-slate-200 antialiased selection:bg-amber-600 selection:text-white">
+
+  <!-- TOP HEADER -->
+  <header class="h-16 border-b border-slate-800 bg-[#0d131f]/95 backdrop-blur-md sticky top-0 z-30 flex items-center justify-between px-3 sm:px-6">
+    <!-- Branding / Logo -->
+    <a href="index.html" class="flex items-center gap-2.5 sm:gap-3 group cursor-pointer">
+      <div class="w-9 h-9 rounded-lg bg-gradient-to-tr from-amber-500 via-orange-500 to-yellow-400 p-[1px] shadow-lg shadow-amber-500/20 flex items-center justify-center shrink-0">
+        <div class="w-full h-full bg-[#0d131f] rounded-lg flex items-center justify-center">
+          <svg class="w-5 h-5 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+            <polyline points="16 7 22 7 22 13"></polyline>
+          </svg>
+        </div>
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <h1 class="text-sm sm:text-base lg:text-lg font-bold tracking-tight text-white flex items-center gap-1.5 whitespace-nowrap">
+            Market Intelligence
+            <span class="text-[10px] sm:text-xs font-semibold px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20 uppercase tracking-wider">W/M SCANNER</span>
+          </h1>
+          <div class="hidden md:flex items-center gap-1 px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 text-[11px] font-medium">
+            <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
+            <span>EMA 10 CROSS</span>
+          </div>
+        </div>
+        <p class="text-[10px] sm:text-[11px] font-semibold text-slate-400 tracking-wider">by Job Bangpla</p>
+      </div>
+    </a>
+
+    <!-- Top Navigation Switcher Bar -->
+    <nav class="flex items-center gap-1 sm:gap-1.5 p-1 bg-slate-900/90 border border-slate-700/80 rounded-xl shadow-inner shrink-0" aria-label="Scanner Modes">
+      <a href="index.html" class="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-all">
+        <svg class="w-3.5 h-3.5 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7"></rect>
+          <rect x="14" y="3" width="7" height="7"></rect>
+          <rect x="14" y="14" width="7" height="7"></rect>
+          <rect x="3" y="14" width="7" height="7"></rect>
+        </svg>
+        <span class="inline">Daily Scanner</span>
+      </a>
+      <a href="weekly-monthly.html" class="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold bg-gradient-to-r from-amber-600 to-orange-600 text-white shadow-md shadow-amber-500/20 transition-all">
+        <svg class="w-3.5 h-3.5 text-amber-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+          <polyline points="16 7 22 7 22 13"></polyline>
+        </svg>
+        <span class="inline">Weekly & Monthly</span>
+        <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-white/20 text-white border border-white/30">EMA 10</span>
+      </a>
+    </nav>
+
+    <!-- Top Right: Language, Clock & Refresh -->
+    <div class="flex items-center gap-2.5 sm:gap-4">
+      <!-- Language Toggle -->
+      <div class="flex items-center p-0.5 bg-slate-900/90 border border-slate-700/80 rounded-lg text-xs font-mono-num font-semibold shadow-inner" id="lang-switcher">
+        <button id="lang-en" class="px-2 sm:px-2.5 py-1 rounded-md text-slate-400 hover:text-white transition-all">EN</button>
+        <button id="lang-th" class="px-2 sm:px-2.5 py-1 rounded-md text-white bg-amber-600 shadow-sm transition-all">TH</button>
+      </div>
+
+      <div class="w-px h-5 bg-slate-800 hidden sm:block"></div>
+
+      <!-- Live Clock Display -->
+      <div class="flex flex-col items-end">
+        <div class="flex items-center gap-1.5 sm:gap-2 font-mono-num text-xs sm:text-sm lg:text-base font-semibold text-white tracking-wide" id="live-clock">
+          --:--:--
+        </div>
+        <div class="text-[9px] sm:text-[10px] uppercase font-mono-num tracking-wider text-slate-400" id="live-date">
+          --- --, ----
+        </div>
+      </div>
+
+      <!-- Refresh Action Button -->
+      <button id="btn-refresh" title="Refresh Scanner Data" class="p-2 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition-all border border-slate-700/60 flex items-center justify-center group shrink-0">
+        <svg id="refresh-icon" class="w-4 h-4 transition-transform group-hover:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- WORKSPACE BODY (SIDEBAR + MAIN CONTENT) -->
+  <div class="flex-1 flex flex-col md:flex-row overflow-hidden">
+    
+    <!-- LEFT SIDEBAR -->
+    <aside class="w-full md:w-64 bg-[#0d131f] border-r border-slate-800/80 flex flex-col justify-between shrink-0">
+      <div class="p-3 lg:p-4 space-y-5">
+        
+        <!-- Markets Selection -->
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider" id="label-markets">หมวดหมู่ตลาด</span>
+            <span class="text-[10px] font-mono-num px-1.5 py-0.5 rounded bg-slate-800 text-slate-300" id="total-scanned-count">-- รายการ</span>
+          </div>
+          <div class="space-y-1">
+            <button class="market-tab w-full flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium transition-all bg-blue-600/20 text-blue-400 border border-blue-500/30" data-category="us_stocks">
+              <span class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-blue-400"></span>
+                <span>หุ้นสหรัฐฯ (US 250)</span>
+              </span>
+              <span class="font-mono-num text-[11px] text-slate-400" id="count-us">--</span>
+            </button>
+            <button class="market-tab w-full flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 transition-all border border-transparent" data-category="thai_stocks">
+              <span class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-slate-500"></span>
+                <span>หุ้นไทย (SET100)</span>
+              </span>
+              <span class="font-mono-num text-[11px] text-slate-400" id="count-thai">--</span>
+            </button>
+            <button class="market-tab w-full flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 transition-all border border-transparent" data-category="crypto">
+              <span class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-slate-500"></span>
+                <span>คริปโทฯ (Crypto 100)</span>
+              </span>
+              <span class="font-mono-num text-[11px] text-slate-400" id="count-crypto">--</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Signal Filter Buttons -->
+        <div>
+          <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-2" id="label-filter">ตัวกรองสัญญาณ EMA 10</span>
+          <div class="space-y-1">
+            <button class="filter-btn w-full flex items-center justify-between px-3 py-1.5 rounded-lg text-xs font-medium bg-amber-500/20 text-amber-300 border border-amber-500/30 transition-all" data-filter="CROSS_ALL">
+              <span class="flex items-center gap-2">
+                <span>🔥</span>
+                <span>เพิ่งตัดขึ้นล่าสุด (All Cross)</span>
+              </span>
+              <span class="font-mono-num text-[11px] px-1.5 py-0.2 rounded bg-amber-500/30 text-amber-200" id="badge-cross-count">--</span>
+            </button>
+            <button class="filter-btn w-full flex items-center justify-between px-3 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 transition-all border border-transparent" data-filter="DOUBLE_CROSS">
+              <span class="flex items-center gap-2">
+                <span>★★</span>
+                <span>Double Cross (W+M)</span>
+              </span>
+            </button>
+            <button class="filter-btn w-full flex items-center justify-between px-3 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 transition-all border border-transparent" data-filter="W_CROSS_M_BULL">
+              <span class="flex items-center gap-2">
+                <span>⚡</span>
+                <span>W-Cross + M-Above</span>
+              </span>
+            </button>
+            <button class="filter-btn w-full flex items-center justify-between px-3 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 transition-all border border-transparent" data-filter="W_CROSS">
+              <span class="flex items-center gap-2">
+                <span>📈</span>
+                <span>Weekly Cross Only</span>
+              </span>
+            </button>
+            <button class="filter-btn w-full flex items-center justify-between px-3 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 transition-all border border-transparent" data-filter="M_CROSS">
+              <span class="flex items-center gap-2">
+                <span>🌕</span>
+                <span>Monthly Cross Only</span>
+              </span>
+            </button>
+            <button class="filter-btn w-full flex items-center justify-between px-3 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 transition-all border border-transparent" data-filter="BULLISH_TREND">
+              <span class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span>ยืนเหนือทั้งคู่ (Bull Trend)</span>
+              </span>
+            </button>
+            <button class="filter-btn w-full flex items-center justify-between px-3 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 transition-all border border-transparent" data-filter="ALL">
+              <span class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-slate-500"></span>
+                <span>สินทรัพย์ทั้งหมด (All)</span>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Strategy Information Box -->
+        <div class="p-3 rounded-xl bg-slate-900/80 border border-slate-800 text-[11px] space-y-2">
+          <div class="flex items-center gap-1.5 text-amber-400 font-semibold">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>เงื่อนไขการตรวจจับ</span>
+          </div>
+          <p class="text-slate-400 leading-relaxed">
+            <b class="text-amber-300">EMA 10 Cross Up</b> คือแท่งก่อนหน้าปิดต่ำกว่าหรือเท่ากับ EMA 10 และแท่งปัจจุบันราคาปิดทะลุขึ้นมายืนเหนือเส้น EMA 10
+          </p>
+          <div class="pt-1 border-t border-slate-800 text-[10px] text-slate-500">
+            ระบบทำงานคู่ขนานผ่าน <code class="text-slate-400">scanner_weekly_monthly.py</code>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Engine Status -->
+      <div class="p-3 border-t border-slate-800/80 text-[11px] text-slate-500 flex items-center justify-between">
+        <span class="flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          <span>W/M Engine Ready</span>
+        </span>
+        <span class="font-mono-num text-[10px]" id="engine-last-updated">--</span>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT VIEW -->
+    <main class="flex-1 flex flex-col overflow-y-auto bg-[#090d16]">
+      
+      <!-- Top Title & Search Header -->
+      <div class="p-4 sm:p-6 border-b border-slate-800/80 space-y-4">
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+          <div>
+            <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2.5" id="market-title">
+              <span>สแกนเนอร์หุ้นสหรัฐฯ (Weekly & Monthly EMA 10)</span>
+            </h2>
+            <p class="text-xs text-slate-400 mt-0.5" id="market-subtitle">
+              ค้นหาสินทรัพย์ที่ราคาปิดตัดขึ้นทะลุเส้น EMA 10 ในกรอบเวลา 1 สัปดาห์ และ 1 เดือน
+            </p>
+          </div>
+
+          <!-- Search and Sort Controls -->
+          <div class="flex flex-wrap items-center gap-2 sm:gap-3">
+            <!-- Search Input -->
+            <div class="relative flex-1 sm:w-64">
+              <svg class="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input type="text" id="search-input" placeholder="ค้นหาชื่อย่อ หรือชื่อสินทรัพย์..." class="w-full bg-slate-900/90 border border-slate-700/80 rounded-lg pl-9 pr-3 py-1.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-amber-500 transition-colors" />
+            </div>
+
+            <!-- Sort Dropdown -->
+            <select id="sort-select" class="bg-slate-900/90 border border-slate-700/80 rounded-lg px-3 py-1.5 text-xs text-slate-300 focus:outline-none focus:border-amber-500 transition-colors">
+              <option value="score_desc">จัดเรียง: สัญญาณเด่นสุด (Default)</option>
+              <option value="w_change_desc">% เปลี่ยนแปลงสัปดาห์: สูง → ต่ำ</option>
+              <option value="m_change_desc">% เปลี่ยนแปลงเดือน: สูง → ต่ำ</option>
+              <option value="w_diff_asc">ใกล้เคียง EMA 10 ที่สุด</option>
+              <option value="price_desc">ราคา: สูง → ต่ำ</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Highlight Summary Cards -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div class="p-3 rounded-xl bg-slate-900/70 border border-slate-800">
+            <span class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">กำลังแสดง</span>
+            <div class="text-xl font-bold font-mono-num text-white mt-1" id="stat-showing">--</div>
+            <span class="text-[10px] text-slate-500">จากทั้งหมดในหมวด</span>
+          </div>
+          <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/30">
+            <span class="text-[10px] uppercase font-bold text-amber-400 tracking-wider">🔥 สัญญาณตัดขึ้น (Cross)</span>
+            <div class="text-xl font-bold font-mono-num text-amber-300 mt-1" id="stat-cross">--</div>
+            <span class="text-[10px] text-amber-400/80">สัปดาห์ / เดือน</span>
+          </div>
+          <div class="p-3 rounded-xl bg-purple-500/10 border border-purple-500/30">
+            <span class="text-[10px] uppercase font-bold text-purple-400 tracking-wider">★★ Double Cross</span>
+            <div class="text-xl font-bold font-mono-num text-purple-300 mt-1" id="stat-double-cross">--</div>
+            <span class="text-[10px] text-purple-400/80">ตัดขึ้นพร้อมกัน 2 TF</span>
+          </div>
+          <div class="p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30">
+            <span class="text-[10px] uppercase font-bold text-emerald-400 tracking-wider">🟢 Bullish Trend</span>
+            <div class="text-xl font-bold font-mono-num text-emerald-300 mt-1" id="stat-bullish-trend">--</div>
+            <span class="text-[10px] text-emerald-400/80">ยืนเหนือ EMA 10 ทั้งคู่</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DATA TABLE CONTAINER -->
+      <div class="p-4 sm:p-6 flex-1">
+        <div class="overflow-x-auto rounded-xl border border-slate-800 bg-[#0d131f]/60 shadow-xl">
+          <table class="w-full text-left text-xs whitespace-nowrap">
+            <thead class="bg-slate-900/90 text-slate-400 uppercase font-mono-num text-[11px] border-b border-slate-800">
+              <tr>
+                <th class="px-4 py-3 font-semibold">ชื่อย่อ / สินทรัพย์</th>
+                <th class="px-4 py-3 font-semibold text-right">ราคาล่าสุด</th>
+                <th class="px-4 py-3 font-semibold text-center border-l border-slate-800/80 bg-blue-950/20">สถานะ Weekly (1W)</th>
+                <th class="px-4 py-3 font-semibold text-right bg-blue-950/20">W-EMA 10</th>
+                <th class="px-4 py-3 font-semibold text-right bg-blue-950/20">W-% เปลี่ยนแปลง</th>
+                <th class="px-4 py-3 font-semibold text-center border-l border-slate-800/80 bg-purple-950/20">สถานะ Monthly (1M)</th>
+                <th class="px-4 py-3 font-semibold text-right bg-purple-950/20">M-EMA 10</th>
+                <th class="px-4 py-3 font-semibold text-right bg-purple-950/20">M-% เปลี่ยนแปลง</th>
+                <th class="px-4 py-3 font-semibold text-center border-l border-slate-800/80">สัญญาณประเมิน</th>
+              </tr>
+            </thead>
+            <tbody id="table-body" class="divide-y divide-slate-800/60 font-mono-num">
+              <!-- Dynamically populated rows -->
+              <tr>
+                <td colspan="9" class="px-4 py-12 text-center text-slate-500">
+                  <div class="flex flex-col items-center gap-2">
+                    <svg class="w-6 h-6 animate-spin text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="3" stroke-dasharray="32" stroke-linecap="round"></circle></svg>
+                    <span>กำลังโหลดผลการสแกน Weekly & Monthly...</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </main>
+
+  </div>
+
+  <!-- Dedicated App JS for Weekly & Monthly Scanner -->
+  <script src="wm-app.js"></script>
+</body>
+</html>
