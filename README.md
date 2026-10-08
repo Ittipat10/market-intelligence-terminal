@@ -80,7 +80,9 @@ To allow GitHub Actions to commit updated data back to your repository:
    - **Build command**: *(Leave empty)*
    - **Build output directory**: `/` *(Root directory)*
 5. Click **Save and Deploy**
-6. Cloudflare will generate a public URL (e.g., `https://market-intelligence-by-job-bangpla.pages.dev`)
+6. Cloudflare live URL: `https://job-bangpla.pages.dev`
+   - Daily Scanner: `https://job-bangpla.pages.dev/`
+   - Weekly & Monthly EMA 10 Scanner: `https://job-bangpla.pages.dev/weekly-monthly.html`
 
 ---
 
