@@ -2,8 +2,8 @@ name: Update Market Intelligence Data
 
 on:
   schedule:
-    # Runs at 16:00 UTC (23:00 Bangkok Time, UTC+7) every Monday through Friday
-    - cron: '0 16 * * 1-5'
+    # Runs at 16:00 UTC (23:00 Bangkok Time, UTC+7) every day (Monday through Sunday)
+    - cron: '0 16 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab anytime
 
 permissions:

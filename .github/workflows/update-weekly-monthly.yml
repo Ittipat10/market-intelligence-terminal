@@ -2,9 +2,11 @@ name: Update Weekly & Monthly EMA 10 Scanner
 
 on:
   schedule:
-    # Runs every Monday at 10:00 AM Bangkok Time (03:00 UTC, UTC+7) when Thai market opens
-    - cron: '0 3 * * 1'
-  workflow_dispatch: # Allows manual trigger from GitHub Actions tab anytime
+    # Runs every day (Monday through Sunday) at 10:00 AM Bangkok Time (03:00 UTC, UTC+7)
+    - cron: '0 3 * * *'
+    # Runs every day at 23:00 Bangkok Time (16:00 UTC)
+    - cron: '0 16 * * *'
+    workflow_dispatch: # Allows manual trigger from GitHub Actions tab anytime
 
 permissions:
   contents: write
