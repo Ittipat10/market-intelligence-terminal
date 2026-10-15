@@ -4,7 +4,7 @@
 [![Weekly/Monthly Scanner](https://github.com/Ittipat10/market-intelligence-terminal/actions/workflows/update-weekly-monthly.yml/badge.svg)](https://github.com/Ittipat10/market-intelligence-terminal/actions)
 [![Cloudflare Pages](https://img.shields.io/badge/Deploy-Cloudflare%20Pages-f38020?logo=cloudflare)](https://job-bangpla.pages.dev)
 [![Python](https://img.shields.io/badge/Python-3.11-3776ab?logo=python)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](LICENSE)
 
 An institutional-grade, dark-themed quantitative market screener and trading intelligence terminal. Powered by an automated asynchronous Python analytics pipeline, multi-asset technical indicator engines (EMA, RSI, MACD, Dual-Timeframe Trend Crossovers), and serverless 24/7 automated GitHub Actions CI/CD deployed to Cloudflare Pages.
 
@@ -124,5 +124,7 @@ flowchart LR
 ---
 
 ## 📄 License
+ 
+Copyright (c) 2026 Ittipat. All rights reserved.
 
-This project is licensed under the [MIT License](LICENSE) - open for exploration, modification, and educational use.
+This project and its source code are proprietary. Unauthorized copying, modification, redistribution, or commercial use is strictly prohibited. See [LICENSE](LICENSE) for details.
