@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Market Intelligence by Job Bangpla - High Performance Screener Engine
+Market Intelligence Terminal - High Performance Screener Engine
 Scans:
 - 250 Top US Stocks (S&P 500 Leaders)
 - 100 Thai Stocks (SET100)
@@ -399,7 +399,7 @@ def run_scanner():
     """Main execution function to scan all watchlists and save JSON."""
     start_time = datetime.now()
     print("=" * 70)
-    print("Market Intelligence by Job Bangpla - Screener Engine")
+    print("Market Intelligence Terminal - Screener Engine")
     print(f"Start Time: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 70)
 

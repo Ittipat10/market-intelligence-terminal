@@ -1,5 +1,5 @@
 /**
- * Market Intelligence by Job Bangpla - Terminal
+ * Market Intelligence Terminal
  * Vanilla JavaScript Core Engine with Bilingual (TH / EN) Support
  */
 
