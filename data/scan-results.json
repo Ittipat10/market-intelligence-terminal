@@ -1459,24 +1459,6 @@
       "confidence": "50%"
     },
     {
-      "ticker": "BAX",
-      "name": "Baxter International",
-      "price": 25.39,
-      "change": 0.0,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 25.5,
-      "rsi14": 50.1,
-      "macd": {
-        "value": 0.2551,
-        "signal": 0.3156,
-        "histogram": -0.0606,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "4.3M",
-      "confidence": "98%"
-    },
-    {
       "ticker": "BALL",
       "name": "Ball Corporation",
       "price": 63.49,
@@ -1492,6 +1474,24 @@
       },
       "action_signal": "SELL",
       "volume": "2.7M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "BAX",
+      "name": "Baxter International",
+      "price": 25.39,
+      "change": 0.0,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 25.5,
+      "rsi14": 50.1,
+      "macd": {
+        "value": 0.2551,
+        "signal": 0.3156,
+        "histogram": -0.0606,
+        "trend": "Bearish Momentum"
+      },
+      "action_signal": "SELL",
+      "volume": "4.3M",
       "confidence": "98%"
     },
     {
@@ -5295,24 +5295,6 @@
       "confidence": "98%"
     },
     {
-      "ticker": "ROJNA.BK",
-      "name": "Rojana Industrial Park",
-      "price": 5.56,
-      "change": 0.0,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 5.67,
-      "rsi14": 41.1,
-      "macd": {
-        "value": -0.0372,
-        "signal": -0.0191,
-        "histogram": -0.0181,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "909.3K",
-      "confidence": "98%"
-    },
-    {
       "ticker": "SCB.BK",
       "name": "SCB X Public Company",
       "price": 152.5,
@@ -5328,6 +5310,24 @@
       },
       "action_signal": "BUY",
       "volume": "5.6M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "ROJNA.BK",
+      "name": "Rojana Industrial Park",
+      "price": 5.56,
+      "change": 0.0,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 5.67,
+      "rsi14": 41.1,
+      "macd": {
+        "value": -0.0372,
+        "signal": -0.0191,
+        "histogram": -0.0181,
+        "trend": "Bearish Momentum"
+      },
+      "action_signal": "SELL",
+      "volume": "909.3K",
       "confidence": "98%"
     },
     {
@@ -6955,15 +6955,15 @@
     {
       "ticker": "USD Futures",
       "name": "USD/THB Currency Futures (Proxy)",
-      "price": 33.94,
-      "change": -0.0,
+      "price": 33.96,
+      "change": 0.05,
       "ema20_status": "Above EMA 20",
-      "ema20_value": 33.73,
-      "rsi14": 62.1,
+      "ema20_value": 33.75,
+      "rsi14": 62.7,
       "macd": {
-        "value": 0.0912,
-        "signal": 0.0664,
-        "histogram": 0.0248,
+        "value": 0.0985,
+        "signal": 0.0728,
+        "histogram": 0.0257,
         "trend": "Bullish Momentum"
       },
       "action_signal": "BUY",
@@ -6985,25 +6985,25 @@
         "trend": "Bearish Momentum"
       },
       "action_signal": "WAIT",
-      "volume": "203.7K",
+      "volume": "323.9K",
       "confidence": "50%"
     },
     {
       "ticker": "Silver Online Futures",
       "name": "Silver Online Futures (Proxy SI)",
-      "price": 41.03,
-      "change": -7.41,
+      "price": 41.07,
+      "change": -7.33,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 49.6,
+      "ema20_value": 49.61,
       "rsi14": 20.9,
       "macd": {
         "value": -3.39,
         "signal": -2.74,
-        "histogram": -0.6485,
+        "histogram": -0.6463,
         "trend": "Bearish Momentum"
       },
       "action_signal": "WAIT",
-      "volume": "30",
+      "volume": "110.4K",
       "confidence": "50%"
     }
   ],
@@ -7015,7 +7015,7 @@
       "change": 13.67,
       "ema20_status": "Below EMA 20",
       "ema20_value": 0.0,
-      "rsi14": 31.1,
+      "rsi14": 31.9,
       "macd": {
         "value": -0.0,
         "signal": -0.0,
@@ -7023,147 +7023,453 @@
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "285.8M",
+      "volume": "162.7M",
       "confidence": "98%"
     },
     {
-      "ticker": "XMR/USDT",
-      "name": "Monero",
-      "price": 488.92,
-      "change": 7.22,
+      "ticker": "PYTH/USDT",
+      "name": "Pyth Network",
+      "price": 0.0519,
+      "change": 6.09,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 531.75,
-      "rsi14": 39.2,
+      "ema20_value": 0.058,
+      "rsi14": 38.4,
       "macd": {
-        "value": -28.44,
-        "signal": -19.79,
-        "histogram": -8.65,
+        "value": -0.0053,
+        "signal": -0.0046,
+        "histogram": -0.0007,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "158.5M",
+      "volume": "17.7M",
       "confidence": "98%"
     },
     {
-      "ticker": "UNI/USDT",
-      "name": "Uniswap",
-      "price": 4.71,
-      "change": 5.3,
+      "ticker": "STRK/USDT",
+      "name": "Starknet",
+      "price": 0.0316,
+      "change": 5.59,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 5.78,
-      "rsi14": 31.5,
+      "ema20_value": 0.0364,
+      "rsi14": 35.4,
       "macd": {
-        "value": -0.6769,
-        "signal": -0.5581,
-        "histogram": -0.1188,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "507.7M",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "BEAM/USDT",
-      "name": "Beam",
-      "price": 0.0035,
-      "change": 4.86,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0039,
-      "rsi14": 43.1,
-      "macd": {
-        "value": -0.0,
-        "signal": 0.0001,
-        "histogram": -0.0002,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "8.5M",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "ZEC/USDT",
-      "name": "Zcash",
-      "price": 792.0,
-      "change": 4.66,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 993.82,
-      "rsi14": 31.9,
-      "macd": {
-        "value": -110.03,
-        "signal": -88.72,
-        "histogram": -21.31,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "1.33B",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "MKR/USDT",
-      "name": "Maker",
-      "price": 1439.55,
-      "change": 4.1,
-      "ema20_status": "Above EMA 20",
-      "ema20_value": 1348.81,
-      "rsi14": 52.8,
-      "macd": {
-        "value": -81.15,
-        "signal": -95.84,
-        "histogram": 14.69,
+        "value": -0.0047,
+        "signal": -0.0048,
+        "histogram": 0.0001,
         "trend": "Bullish Crossover"
       },
+      "action_signal": "WAIT",
+      "volume": "1.9K",
+      "confidence": "50%"
+    },
+    {
+      "ticker": "FLOW/USDT",
+      "name": "Flow",
+      "price": 0.015,
+      "change": 4.85,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0183,
+      "rsi14": 22.9,
+      "macd": {
+        "value": -0.0029,
+        "signal": -0.0028,
+        "histogram": -0.0001,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "1.7M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "WLD/USDT",
+      "name": "Worldcoin",
+      "price": 0.2389,
+      "change": 4.81,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.2958,
+      "rsi14": 27.8,
+      "macd": {
+        "value": -0.0496,
+        "signal": -0.0494,
+        "histogram": -0.0003,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "202.9M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "BLUR/USDT",
+      "name": "Blur",
+      "price": 0.0074,
+      "change": 3.82,
+      "ema20_status": "Above EMA 20",
+      "ema20_value": 0.0071,
+      "rsi14": 46.5,
+      "macd": {
+        "value": -0.0007,
+        "signal": -0.0011,
+        "histogram": 0.0004,
+        "trend": "Bullish Momentum"
+      },
       "action_signal": "BUY",
-      "volume": "161.6K",
+      "volume": "87.3M",
       "confidence": "98%"
+    },
+    {
+      "ticker": "NEAR/USDT",
+      "name": "NEAR Protocol",
+      "price": 2.99,
+      "change": 3.57,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 3.43,
+      "rsi14": 35.6,
+      "macd": {
+        "value": -0.3588,
+        "signal": -0.3501,
+        "histogram": -0.0087,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "470.5M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "BONK/USDT",
+      "name": "Bonk",
+      "price": 0.0,
+      "change": 3.5,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0,
+      "rsi14": 12.7,
+      "macd": {
+        "value": -0.0,
+        "signal": -0.0,
+        "histogram": -0.0,
+        "trend": "Neutral"
+      },
+      "action_signal": "WAIT",
+      "volume": "22.8M",
+      "confidence": "50%"
+    },
+    {
+      "ticker": "INJ/USDT",
+      "name": "Injective",
+      "price": 6.19,
+      "change": 3.49,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 7.14,
+      "rsi14": 37.4,
+      "macd": {
+        "value": -0.3822,
+        "signal": -0.2337,
+        "histogram": -0.1485,
+        "trend": "Bearish Momentum"
+      },
+      "action_signal": "SELL",
+      "volume": "78.1M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "ETC/USDT",
+      "name": "Ethereum Classic",
+      "price": 5.68,
+      "change": 3.46,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 6.27,
+      "rsi14": 32.2,
+      "macd": {
+        "value": -0.5063,
+        "signal": -0.4733,
+        "histogram": -0.0331,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "24.8M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "FIL/USDT",
+      "name": "Filecoin",
+      "price": 0.5353,
+      "change": 3.44,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.6724,
+      "rsi14": 22.3,
+      "macd": {
+        "value": -0.101,
+        "signal": -0.092,
+        "histogram": -0.009,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "45.0M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "ENA/USDT",
+      "name": "Ethena",
+      "price": 0.1015,
+      "change": 3.19,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.1316,
+      "rsi14": 26.8,
+      "macd": {
+        "value": -0.0233,
+        "signal": -0.0215,
+        "histogram": -0.0018,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "184.8M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "RENDER/USDT",
+      "name": "Render",
+      "price": 1.34,
+      "change": 3.05,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 1.46,
+      "rsi14": 39.2,
+      "macd": {
+        "value": -0.0962,
+        "signal": -0.0895,
+        "histogram": -0.0068,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "17.3M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "RUNE/USDT",
+      "name": "THORChain",
+      "price": 0.5051,
+      "change": 2.9,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.5486,
+      "rsi14": 38.8,
+      "macd": {
+        "value": -0.0338,
+        "signal": -0.0301,
+        "histogram": -0.0037,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "3.1M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "CAKE/USDT",
+      "name": "PancakeSwap",
+      "price": 1.52,
+      "change": 2.78,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 1.7,
+      "rsi14": 29.0,
+      "macd": {
+        "value": -0.1479,
+        "signal": -0.14,
+        "histogram": -0.0079,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "15.9M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "APT/USDT",
+      "name": "Aptos",
+      "price": 0.3805,
+      "change": 2.72,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.4961,
+      "rsi14": 21.4,
+      "macd": {
+        "value": -0.0809,
+        "signal": -0.0721,
+        "histogram": -0.0088,
+        "trend": "Neutral"
+      },
+      "action_signal": "WAIT",
+      "volume": "21.5M",
+      "confidence": "50%"
+    },
+    {
+      "ticker": "TAO/USDT",
+      "name": "Bittensor",
+      "price": 190.81,
+      "change": 2.55,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 206.15,
+      "rsi14": 36.8,
+      "macd": {
+        "value": -16.27,
+        "signal": -16.37,
+        "histogram": 0.1004,
+        "trend": "Bullish Crossover"
+      },
+      "action_signal": "WAIT",
+      "volume": "66.9M",
+      "confidence": "50%"
+    },
+    {
+      "ticker": "STX/USDT",
+      "name": "Stacks",
+      "price": 0.258,
+      "change": 2.48,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.2851,
+      "rsi14": 37.6,
+      "macd": {
+        "value": -0.0209,
+        "signal": -0.0181,
+        "histogram": -0.0028,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "9.4M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "JUP/USDT",
+      "name": "Jupiter",
+      "price": 0.223,
+      "change": 2.47,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.2497,
+      "rsi14": 38.9,
+      "macd": {
+        "value": -0.0124,
+        "signal": -0.0109,
+        "histogram": -0.0014,
+        "trend": "Bearish Momentum"
+      },
+      "action_signal": "SELL",
+      "volume": "28.2M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "LINK/USDT",
+      "name": "Chainlink",
+      "price": 8.81,
+      "change": 2.44,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 9.72,
+      "rsi14": 32.8,
+      "macd": {
+        "value": -0.7749,
+        "signal": -0.7275,
+        "histogram": -0.0474,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "187.3M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "ICP/USDT",
+      "name": "Internet Computer",
+      "price": 1.96,
+      "change": 2.44,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 2.3,
+      "rsi14": 34.3,
+      "macd": {
+        "value": -0.1759,
+        "signal": -0.1435,
+        "histogram": -0.0324,
+        "trend": "Bearish Momentum"
+      },
+      "action_signal": "SELL",
+      "volume": "33.6M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "NOT/USDT",
+      "name": "Notcoin",
+      "price": 0.0003,
+      "change": 2.37,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0003,
+      "rsi14": 35.0,
+      "macd": {
+        "value": -0.0,
+        "signal": -0.0,
+        "histogram": 0.0,
+        "trend": "Bullish Momentum"
+      },
+      "action_signal": "WAIT",
+      "volume": "2.3M",
+      "confidence": "50%"
+    },
+    {
+      "ticker": "ROSE/USDT",
+      "name": "Oasis Network",
+      "price": 0.0044,
+      "change": 2.35,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0051,
+      "rsi14": 28.4,
+      "macd": {
+        "value": -0.0006,
+        "signal": -0.0006,
+        "histogram": 0.0,
+        "trend": "Bullish Crossover"
+      },
+      "action_signal": "WAIT",
+      "volume": "1.2M",
+      "confidence": "50%"
     },
     {
       "ticker": "ETH/USDT",
       "name": "Ethereum",
-      "price": 1683.72,
-      "change": 3.97,
+      "price": 1720.0,
+      "change": 2.25,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 1949.09,
-      "rsi14": 25.8,
+      "ema20_value": 1927.15,
+      "rsi14": 29.5,
       "macd": {
-        "value": -173.4,
-        "signal": -148.48,
-        "histogram": -24.92,
+        "value": -170.3,
+        "signal": -152.89,
+        "histogram": -17.41,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "19.86B",
+      "volume": "7.99B",
       "confidence": "90%"
     },
     {
-      "ticker": "TWT/USDT",
-      "name": "Trust Wallet Token",
-      "price": 0.3157,
-      "change": 3.83,
+      "ticker": "WIF/USDT",
+      "name": "dogwifhat",
+      "price": 0.1204,
+      "change": 2.17,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.3702,
-      "rsi14": 28.7,
+      "ema20_value": 0.1439,
+      "rsi14": 24.1,
       "macd": {
-        "value": -0.031,
-        "signal": -0.0281,
-        "histogram": -0.003,
-        "trend": "Bearish Momentum"
+        "value": -0.0167,
+        "signal": -0.0156,
+        "histogram": -0.001,
+        "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "9.4M",
+      "volume": "39.1M",
       "confidence": "90%"
     },
     {
-      "ticker": "CRO/USDT",
-      "name": "Cronos",
-      "price": 0.0412,
-      "change": 3.52,
+      "ticker": "ORDI/USDT",
+      "name": "ORDI",
+      "price": 2.53,
+      "change": 1.95,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0459,
-      "rsi14": 29.6,
+      "ema20_value": 2.94,
+      "rsi14": 27.7,
       "macd": {
-        "value": -0.0035,
-        "signal": -0.0032,
-        "histogram": -0.0003,
+        "value": -0.2879,
+        "signal": -0.2641,
+        "histogram": -0.0238,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
@@ -7171,463 +7477,391 @@
       "confidence": "90%"
     },
     {
-      "ticker": "STX/USDT",
-      "name": "Stacks",
-      "price": 0.2516,
-      "change": 2.86,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.2879,
-      "rsi14": 35.0,
-      "macd": {
-        "value": -0.0211,
-        "signal": -0.0173,
-        "histogram": -0.0039,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "14.2M",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "HNT/USDT",
-      "name": "Helium",
-      "price": 0.2185,
-      "change": 2.76,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.2637,
-      "rsi14": 22.4,
-      "macd": {
-        "value": -0.0426,
-        "signal": -0.0447,
-        "histogram": 0.0021,
-        "trend": "Bullish Momentum"
-      },
-      "action_signal": "WAIT",
-      "volume": "2.4M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "RENDER/USDT",
-      "name": "Render",
-      "price": 1.31,
-      "change": 2.74,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 1.47,
-      "rsi14": 36.3,
-      "macd": {
-        "value": -0.0965,
-        "signal": -0.0858,
-        "histogram": -0.0107,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "36.3M",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "TAO/USDT",
-      "name": "Bittensor",
-      "price": 185.45,
-      "change": 2.72,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 207.68,
-      "rsi14": 33.2,
-      "macd": {
-        "value": -16.92,
-        "signal": -16.26,
-        "histogram": -0.6648,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "161.7M",
-      "confidence": "98%"
-    },
-    {
       "ticker": "AR/USDT",
       "name": "Arweave",
-      "price": 2.25,
-      "change": 2.64,
+      "price": 2.31,
+      "change": 1.83,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 2.79,
-      "rsi14": 27.3,
+      "ema20_value": 2.74,
+      "rsi14": 29.9,
       "macd": {
         "value": -0.3175,
-        "signal": -0.2724,
-        "histogram": -0.0451,
+        "signal": -0.2836,
+        "histogram": -0.0339,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "11.4M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "VET/USDT",
-      "name": "VeChain",
-      "price": 0.0046,
-      "change": 2.61,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0052,
-      "rsi14": 31.2,
-      "macd": {
-        "value": -0.0005,
-        "signal": -0.0005,
-        "histogram": 0.0,
-        "trend": "Bullish Momentum"
-      },
-      "action_signal": "WAIT",
-      "volume": "12.0M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "BTC/USDT",
-      "name": "Bitcoin",
-      "price": 60318.67,
-      "change": 2.58,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 68519.73,
-      "rsi14": 23.0,
-      "macd": {
-        "value": -4970.33,
-        "signal": -4022.13,
-        "histogram": -948.2,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "59.27B",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "SOL/USDT",
-      "name": "Solana",
-      "price": 70.37,
-      "change": 2.36,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 80.27,
-      "rsi14": 27.1,
-      "macd": {
-        "value": -7.69,
-        "signal": -7.32,
-        "histogram": -0.3702,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "3.98B",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "BCH/USDT",
-      "name": "Bitcoin Cash",
-      "price": 198.85,
-      "change": 2.3,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 227.36,
-      "rsi14": 28.2,
-      "macd": {
-        "value": -20.84,
-        "signal": -19.05,
-        "histogram": -1.79,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "165.3M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "QNT/USDT",
-      "name": "Quant",
-      "price": 142.39,
-      "change": 2.21,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 165.6,
-      "rsi14": 34.5,
-      "macd": {
-        "value": -13.31,
-        "signal": -10.39,
-        "histogram": -2.92,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "84.5M",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "EOS/USDT",
-      "name": "EOS",
-      "price": 0.0653,
-      "change": 2.19,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0726,
-      "rsi14": 34.3,
-      "macd": {
-        "value": -0.006,
-        "signal": -0.0059,
-        "histogram": -0.0001,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "163.0K",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "XRP/USDT",
-      "name": "Ripple",
-      "price": 0.9282,
-      "change": 2.03,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 1.05,
-      "rsi14": 28.4,
-      "macd": {
-        "value": -0.0942,
-        "signal": -0.0896,
-        "histogram": -0.0046,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "2.73B",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "BNB/USDT",
-      "name": "BNB",
-      "price": 548.6,
-      "change": 1.78,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 627.17,
-      "rsi14": 23.8,
-      "macd": {
-        "value": -43.41,
-        "signal": -34.5,
-        "histogram": -8.91,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "1.42B",
+      "volume": "7.5M",
       "confidence": "90%"
     },
     {
       "ticker": "WBNB/USDT",
       "name": "Wrapped BNB",
-      "price": 548.64,
-      "change": 1.76,
+      "price": 557.13,
+      "change": 1.74,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 627.0,
-      "rsi14": 23.5,
+      "ema20_value": 620.28,
+      "rsi14": 26.9,
       "macd": {
-        "value": -43.39,
-        "signal": -34.54,
-        "histogram": -8.85,
+        "value": -43.69,
+        "signal": -36.51,
+        "histogram": -7.18,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "455.5M",
+      "volume": "269.4M",
       "confidence": "90%"
+    },
+    {
+      "ticker": "NEO/USDT",
+      "name": "NEO",
+      "price": 1.54,
+      "change": 1.73,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 1.71,
+      "rsi14": 29.2,
+      "macd": {
+        "value": -0.151,
+        "signal": -0.1504,
+        "histogram": -0.0005,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "2.3M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "BAT/USDT",
+      "name": "Basic Attention Token",
+      "price": 0.0803,
+      "change": 1.73,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.1049,
+      "rsi14": 31.9,
+      "macd": {
+        "value": -0.0152,
+        "signal": -0.0125,
+        "histogram": -0.0027,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "9.2M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "BNB/USDT",
+      "name": "BNB",
+      "price": 556.69,
+      "change": 1.68,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 620.39,
+      "rsi14": 27.0,
+      "macd": {
+        "value": -43.75,
+        "signal": -36.48,
+        "histogram": -7.27,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "763.5M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "ARB/USDT",
+      "name": "Arbitrum",
+      "price": 0.1151,
+      "change": 1.65,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.1391,
+      "rsi14": 29.3,
+      "macd": {
+        "value": -0.0151,
+        "signal": -0.0126,
+        "histogram": -0.0025,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "60.2M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "IOTA/USDT",
+      "name": "IOTA",
+      "price": 0.0303,
+      "change": 1.59,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.034,
+      "rsi14": 29.0,
+      "macd": {
+        "value": -0.0031,
+        "signal": -0.0031,
+        "histogram": 0.0,
+        "trend": "Bullish Momentum"
+      },
+      "action_signal": "WAIT",
+      "volume": "3.7M",
+      "confidence": "50%"
     },
     {
       "ticker": "AVAX/USDT",
       "name": "Avalanche",
-      "price": 6.62,
-      "change": 1.73,
+      "price": 6.68,
+      "change": 1.56,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 7.69,
-      "rsi14": 30.3,
+      "ema20_value": 7.59,
+      "rsi14": 31.4,
       "macd": {
-        "value": -0.6298,
-        "signal": -0.5381,
-        "histogram": -0.0917,
+        "value": -0.6357,
+        "signal": -0.5573,
+        "histogram": -0.0784,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "233.3M",
+      "volume": "156.1M",
       "confidence": "98%"
     },
     {
-      "ticker": "ALGO/USDT",
-      "name": "Algorand",
-      "price": 0.0745,
-      "change": 1.7,
+      "ticker": "BEAM/USDT",
+      "name": "Beam",
+      "price": 0.0035,
+      "change": 1.51,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0851,
-      "rsi14": 28.5,
+      "ema20_value": 0.0038,
+      "rsi14": 44.0,
       "macd": {
-        "value": -0.0074,
-        "signal": -0.0068,
-        "histogram": -0.0006,
+        "value": -0.0,
+        "signal": 0.0001,
+        "histogram": -0.0001,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "54.1M",
+      "volume": "3.2M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "CFX/USDT",
+      "name": "Conflux",
+      "price": 0.0309,
+      "change": 1.51,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0372,
+      "rsi14": 23.8,
+      "macd": {
+        "value": -0.0046,
+        "signal": -0.0041,
+        "histogram": -0.0004,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "8.3M",
       "confidence": "90%"
     },
     {
-      "ticker": "JASMY/USDT",
-      "name": "JasmyCoin",
-      "price": 0.0031,
-      "change": 1.57,
+      "ticker": "PENDLE/USDT",
+      "name": "Pendle",
+      "price": 1.29,
+      "change": 1.47,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0035,
-      "rsi14": 32.7,
+      "ema20_value": 1.51,
+      "rsi14": 26.6,
       "macd": {
-        "value": -0.0003,
-        "signal": -0.0003,
-        "histogram": -0.0,
+        "value": -0.1603,
+        "signal": -0.1555,
+        "histogram": -0.0048,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "7.0M",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "DOGE/USDT",
-      "name": "Dogecoin",
-      "price": 0.0551,
-      "change": 1.54,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0642,
-      "rsi14": 25.0,
-      "macd": {
-        "value": -0.0059,
-        "signal": -0.0053,
-        "histogram": -0.0006,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "790.1M",
+      "volume": "15.8M",
       "confidence": "90%"
     },
     {
-      "ticker": "NEAR/USDT",
-      "name": "NEAR Protocol",
-      "price": 2.89,
-      "change": 1.5,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 3.48,
-      "rsi14": 32.6,
-      "macd": {
-        "value": -0.3622,
-        "signal": -0.3437,
-        "histogram": -0.0184,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "887.8M",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "BONK/USDT",
-      "name": "Bonk",
+      "ticker": "FLOKI/USDT",
+      "name": "FLOKI",
       "price": 0.0,
-      "change": 1.5,
+      "change": 1.44,
       "ema20_status": "Below EMA 20",
       "ema20_value": 0.0,
-      "rsi14": 7.1,
+      "rsi14": 27.7,
       "macd": {
         "value": -0.0,
         "signal": -0.0,
         "histogram": -0.0,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
-      "volume": "31.7M",
-      "confidence": "50%"
+      "action_signal": "SELL",
+      "volume": "14.4M",
+      "confidence": "90%"
     },
     {
-      "ticker": "XLM/USDT",
-      "name": "Stellar",
-      "price": 0.1292,
+      "ticker": "ZEC/USDT",
+      "name": "Zcash",
+      "price": 790.39,
+      "change": 1.4,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 973.48,
+      "rsi14": 31.7,
+      "macd": {
+        "value": -113.73,
+        "signal": -94.47,
+        "histogram": -19.26,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "517.2M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "SUI/USDT",
+      "name": "Sui",
+      "price": 0.6567,
       "change": 1.38,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.1452,
-      "rsi14": 29.9,
+      "ema20_value": 0.7652,
+      "rsi14": 28.9,
       "macd": {
-        "value": -0.0109,
+        "value": -0.0725,
+        "signal": -0.065,
+        "histogram": -0.0074,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "198.3M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "LDO/USDT",
+      "name": "Lido DAO",
+      "price": 0.2363,
+      "change": 1.35,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.2887,
+      "rsi14": 24.9,
+      "macd": {
+        "value": -0.0326,
+        "signal": -0.0288,
+        "histogram": -0.0038,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "34.3M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "BTC/USDT",
+      "name": "Bitcoin",
+      "price": 60865.61,
+      "change": 1.28,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 67771.4,
+      "rsi14": 25.3,
+      "macd": {
+        "value": -4972.61,
+        "signal": -4215.05,
+        "histogram": -757.57,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "26.54B",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "SAND/USDT",
+      "name": "The Sandbox",
+      "price": 0.0336,
+      "change": 1.27,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.039,
+      "rsi14": 29.3,
+      "macd": {
+        "value": -0.004,
+        "signal": -0.0039,
+        "histogram": -0.0002,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "11.6M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "CRV/USDT",
+      "name": "Curve DAO",
+      "price": 0.1809,
+      "change": 1.27,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.2262,
+      "rsi14": 22.3,
+      "macd": {
+        "value": -0.0339,
+        "signal": -0.032,
+        "histogram": -0.0019,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "20.5M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "EGLD/USDT",
+      "name": "MultiversX",
+      "price": 2.32,
+      "change": 1.27,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 2.75,
+      "rsi14": 23.2,
+      "macd": {
+        "value": -0.2977,
+        "signal": -0.2697,
+        "histogram": -0.028,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "2.4M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "OP/USDT",
+      "name": "Optimism",
+      "price": 0.0712,
+      "change": 1.15,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0874,
+      "rsi14": 26.3,
+      "macd": {
+        "value": -0.0117,
         "signal": -0.0105,
+        "histogram": -0.0012,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "22.3M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "MANA/USDT",
+      "name": "Decentraland",
+      "price": 0.0558,
+      "change": 1.08,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0647,
+      "rsi14": 23.9,
+      "macd": {
+        "value": -0.006,
+        "signal": -0.0055,
         "histogram": -0.0005,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "168.5M",
+      "volume": "6.6M",
       "confidence": "90%"
-    },
-    {
-      "ticker": "QTUM/USDT",
-      "name": "Qtum",
-      "price": 0.6167,
-      "change": 1.27,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.6864,
-      "rsi14": 28.1,
-      "macd": {
-        "value": -0.0508,
-        "signal": -0.0515,
-        "histogram": 0.0007,
-        "trend": "Bullish"
-      },
-      "action_signal": "WAIT",
-      "volume": "9.4M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "RUNE/USDT",
-      "name": "THORChain",
-      "price": 0.4921,
-      "change": 1.19,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.5532,
-      "rsi14": 35.9,
-      "macd": {
-        "value": -0.0338,
-        "signal": -0.0287,
-        "histogram": -0.0051,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "4.5M",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "ADA/USDT",
-      "name": "Cardano",
-      "price": 0.1445,
-      "change": 1.13,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.1668,
-      "rsi14": 26.2,
-      "macd": {
-        "value": -0.0159,
-        "signal": -0.0151,
-        "histogram": -0.0008,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "443.9M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "TRX/USDT",
-      "name": "TRON",
-      "price": 0.3049,
-      "change": 1.1,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.3126,
-      "rsi14": 38.1,
-      "macd": {
-        "value": -0.0056,
-        "signal": -0.0052,
-        "histogram": -0.0004,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "579.2M",
-      "confidence": "98%"
     },
     {
       "ticker": "ASTR/USDT",
       "name": "Astar",
       "price": 0.0043,
-      "change": 1.01,
+      "change": 1.02,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0049,
-      "rsi14": 27.2,
+      "ema20_value": 0.0048,
+      "rsi14": 29.5,
       "macd": {
         "value": -0.0004,
         "signal": -0.0004,
@@ -7635,147 +7869,39 @@
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "1.3M",
+      "volume": "874.8K",
       "confidence": "90%"
     },
     {
-      "ticker": "LINK/USDT",
-      "name": "Chainlink",
-      "price": 8.61,
-      "change": 0.93,
+      "ticker": "KAS/USDT",
+      "name": "Kaspa",
+      "price": 0.0256,
+      "change": 1.0,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 9.82,
-      "rsi14": 29.5,
+      "ema20_value": 0.0284,
+      "rsi14": 30.8,
       "macd": {
-        "value": -0.7812,
-        "signal": -0.7022,
-        "histogram": -0.079,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "340.0M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "FLOW/USDT",
-      "name": "Flow",
-      "price": 0.0144,
-      "change": 0.9,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0186,
-      "rsi14": 17.6,
-      "macd": {
-        "value": -0.003,
-        "signal": -0.0028,
-        "histogram": -0.0002,
-        "trend": "Neutral"
+        "value": -0.0023,
+        "signal": -0.0023,
+        "histogram": 0.0,
+        "trend": "Bullish Crossover"
       },
       "action_signal": "WAIT",
-      "volume": "3.2M",
+      "volume": "4.9M",
       "confidence": "50%"
     },
     {
-      "ticker": "AXS/USDT",
-      "name": "Axie Infinity",
-      "price": 0.6179,
-      "change": 0.85,
+      "ticker": "DOT/USDT",
+      "name": "Polkadot",
+      "price": 0.6595,
+      "change": 0.99,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.7462,
-      "rsi14": 24.2,
+      "ema20_value": 0.7878,
+      "rsi14": 21.7,
       "macd": {
-        "value": -0.0842,
-        "signal": -0.0782,
-        "histogram": -0.006,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "14.6M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "PYTH/USDT",
-      "name": "Pyth Network",
-      "price": 0.0485,
-      "change": 0.78,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0586,
-      "rsi14": 32.8,
-      "macd": {
-        "value": -0.0054,
-        "signal": -0.0044,
-        "histogram": -0.001,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "22.5M",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "HBAR/USDT",
-      "name": "Hedera",
-      "price": 0.0519,
-      "change": 0.61,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0617,
-      "rsi14": 24.0,
-      "macd": {
-        "value": -0.0064,
-        "signal": -0.006,
-        "histogram": -0.0005,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "67.0M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "PENDLE/USDT",
-      "name": "Pendle",
-      "price": 1.28,
-      "change": 0.47,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 1.53,
-      "rsi14": 25.0,
-      "macd": {
-        "value": -0.1594,
-        "signal": -0.1525,
-        "histogram": -0.0069,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "31.9M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "ETC/USDT",
-      "name": "Ethereum Classic",
-      "price": 5.49,
-      "change": 0.41,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 6.33,
-      "rsi14": 26.9,
-      "macd": {
-        "value": -0.51,
-        "signal": -0.4549,
-        "histogram": -0.0551,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "34.5M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "APT/USDT",
-      "name": "Aptos",
-      "price": 0.3703,
-      "change": 0.35,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.5081,
-      "rsi14": 18.7,
-      "macd": {
-        "value": -0.0801,
-        "signal": -0.0691,
-        "histogram": -0.011,
+        "value": -0.0907,
+        "signal": -0.0843,
+        "histogram": -0.0064,
         "trend": "Neutral"
       },
       "action_signal": "WAIT",
@@ -7783,868 +7909,742 @@
       "confidence": "50%"
     },
     {
-      "ticker": "THETA/USDT",
-      "name": "Theta Network",
-      "price": 0.1273,
-      "change": 0.29,
+      "ticker": "TWT/USDT",
+      "name": "Trust Wallet Token",
+      "price": 0.3174,
+      "change": 0.96,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.1413,
-      "rsi14": 30.1,
+      "ema20_value": 0.3652,
+      "rsi14": 29.3,
       "macd": {
-        "value": -0.0126,
-        "signal": -0.0137,
-        "histogram": 0.0011,
-        "trend": "Bullish Momentum"
-      },
-      "action_signal": "WAIT",
-      "volume": "4.2M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "AKT/USDT",
-      "name": "Akash Network",
-      "price": 0.5083,
-      "change": 0.28,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.5594,
-      "rsi14": 38.7,
-      "macd": {
-        "value": -0.0405,
-        "signal": -0.0378,
+        "value": -0.0319,
+        "signal": -0.0293,
         "histogram": -0.0026,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "5.1M",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "FLOKI/USDT",
-      "name": "FLOKI",
-      "price": 0.0,
-      "change": 0.25,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0,
-      "rsi14": 26.2,
-      "macd": {
-        "value": -0.0,
-        "signal": -0.0,
-        "histogram": -0.0,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "22.3M",
+      "volume": "3.2M",
       "confidence": "90%"
     },
     {
-      "ticker": "AEVO/USDT",
-      "name": "Aevo",
-      "price": 0.0157,
-      "change": 0.08,
+      "ticker": "1INCH/USDT",
+      "name": "1inch Network",
+      "price": 0.0607,
+      "change": 0.91,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0181,
-      "rsi14": 29.4,
+      "ema20_value": 0.0705,
+      "rsi14": 23.0,
       "macd": {
-        "value": -0.0014,
-        "signal": -0.0013,
-        "histogram": -0.0001,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "1.6M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "CFX/USDT",
-      "name": "Conflux",
-      "price": 0.0303,
-      "change": 0.07,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0379,
-      "rsi14": 21.3,
-      "macd": {
-        "value": -0.0045,
-        "signal": -0.004,
+        "value": -0.0066,
+        "signal": -0.006,
         "histogram": -0.0006,
         "trend": "Neutral"
       },
-      "action_signal": "WAIT",
-      "volume": "10.7M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "OP/USDT",
-      "name": "Optimism",
-      "price": 0.0699,
-      "change": -0.07,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.089,
-      "rsi14": 24.5,
-      "macd": {
-        "value": -0.0117,
-        "signal": -0.0101,
-        "histogram": -0.0016,
-        "trend": "Neutral"
-      },
       "action_signal": "SELL",
-      "volume": "37.0M",
+      "volume": "4.9M",
       "confidence": "90%"
-    },
-    {
-      "ticker": "ENJ/USDT",
-      "name": "Enjin Coin",
-      "price": 0.0177,
-      "change": -0.08,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.021,
-      "rsi14": 26.2,
-      "macd": {
-        "value": -0.002,
-        "signal": -0.0018,
-        "histogram": -0.0002,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "3.6M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "CAKE/USDT",
-      "name": "PancakeSwap",
-      "price": 1.48,
-      "change": -0.19,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 1.72,
-      "rsi14": 24.6,
-      "macd": {
-        "value": -0.1481,
-        "signal": -0.1351,
-        "histogram": -0.0129,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "28.7M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "STRK/USDT",
-      "name": "Starknet",
-      "price": 0.0304,
-      "change": -0.36,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0369,
-      "rsi14": 31.6,
-      "macd": {
-        "value": -0.0048,
-        "signal": -0.0048,
-        "histogram": -0.0,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "1.7K",
-      "confidence": "98%"
-    },
-    {
-      "ticker": "NEO/USDT",
-      "name": "NEO",
-      "price": 1.51,
-      "change": -0.48,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 1.72,
-      "rsi14": 26.1,
-      "macd": {
-        "value": -0.1538,
-        "signal": -0.1483,
-        "histogram": -0.0055,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "3.8M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "GNO/USDT",
-      "name": "Gnosis",
-      "price": 90.4,
-      "change": -0.54,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 100.25,
-      "rsi14": 32.4,
-      "macd": {
-        "value": -4.9,
-        "signal": -4.01,
-        "histogram": -0.8881,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "1.2M",
-      "confidence": "98%"
     },
     {
       "ticker": "ONDO/USDT",
       "name": "Ondo",
-      "price": 0.2799,
-      "change": -0.55,
+      "price": 0.2841,
+      "change": 0.84,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.3351,
-      "rsi14": 28.1,
+      "ema20_value": 0.3307,
+      "rsi14": 28.9,
       "macd": {
-        "value": -0.0342,
-        "signal": -0.0304,
-        "histogram": -0.0038,
+        "value": -0.0351,
+        "signal": -0.0327,
+        "histogram": -0.0023,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "116.0M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "ORDI/USDT",
-      "name": "ORDI",
-      "price": 2.49,
-      "change": -0.58,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 2.99,
-      "rsi14": 25.2,
-      "macd": {
-        "value": -0.2839,
-        "signal": -0.2556,
-        "histogram": -0.0283,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "11.1M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "SUI/USDT",
-      "name": "Sui",
-      "price": 0.6465,
-      "change": -0.62,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.7764,
-      "rsi14": 27.1,
-      "macd": {
-        "value": -0.0713,
-        "signal": -0.0624,
-        "histogram": -0.0089,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "411.3M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "ENA/USDT",
-      "name": "Ethena",
-      "price": 0.0983,
-      "change": -0.66,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.1347,
-      "rsi14": 24.4,
-      "macd": {
-        "value": -0.0233,
-        "signal": -0.0207,
-        "histogram": -0.0026,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "360.6M",
+      "volume": "67.1M",
       "confidence": "90%"
     },
     {
       "ticker": "AAVE/USDT",
       "name": "Aave",
-      "price": 97.2,
-      "change": -0.74,
+      "price": 98.25,
+      "change": 0.76,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 115.39,
-      "rsi14": 30.4,
+      "ema20_value": 113.81,
+      "rsi14": 31.4,
       "macd": {
-        "value": -10.18,
-        "signal": -9.09,
-        "histogram": -1.09,
-        "trend": "Bearish Momentum"
+        "value": -10.35,
+        "signal": -9.44,
+        "histogram": -0.9185,
+        "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "231.1M",
+      "volume": "147.0M",
       "confidence": "98%"
-    },
-    {
-      "ticker": "MINA/USDT",
-      "name": "Mina",
-      "price": 0.0415,
-      "change": -0.8,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0508,
-      "rsi14": 24.2,
-      "macd": {
-        "value": -0.0076,
-        "signal": -0.0083,
-        "histogram": 0.0006,
-        "trend": "Bullish"
-      },
-      "action_signal": "WAIT",
-      "volume": "4.9M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "1INCH/USDT",
-      "name": "1inch Network",
-      "price": 0.0602,
-      "change": -0.81,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0715,
-      "rsi14": 21.4,
-      "macd": {
-        "value": -0.0065,
-        "signal": -0.0058,
-        "histogram": -0.0007,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "WAIT",
-      "volume": "6.3M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "BLUR/USDT",
-      "name": "Blur",
-      "price": 0.0071,
-      "change": -0.82,
-      "ema20_status": "Above EMA 20",
-      "ema20_value": 0.0071,
-      "rsi14": 43.4,
-      "macd": {
-        "value": -0.0008,
-        "signal": -0.0012,
-        "histogram": 0.0003,
-        "trend": "Bullish Momentum"
-      },
-      "action_signal": "BUY",
-      "volume": "116.0M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "EGLD/USDT",
-      "name": "MultiversX",
-      "price": 2.29,
-      "change": -0.82,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 2.79,
-      "rsi14": 21.5,
-      "macd": {
-        "value": -0.2934,
-        "signal": -0.2595,
-        "histogram": -0.0339,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "WAIT",
-      "volume": "4.7M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "BSV/USDT",
-      "name": "Bitcoin SV",
-      "price": 14.05,
-      "change": -0.87,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 15.53,
-      "rsi14": 28.7,
-      "macd": {
-        "value": -0.8941,
-        "signal": -0.8274,
-        "histogram": -0.0666,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "13.9M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "WLD/USDT",
-      "name": "Worldcoin",
-      "price": 0.2276,
-      "change": -0.94,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.3016,
-      "rsi14": 23.6,
-      "macd": {
-        "value": -0.0505,
-        "signal": -0.0488,
-        "histogram": -0.0017,
-        "trend": "Neutral"
-      },
-      "action_signal": "SELL",
-      "volume": "279.0M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "MANA/USDT",
-      "name": "Decentraland",
-      "price": 0.0553,
-      "change": -0.95,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0656,
-      "rsi14": 22.2,
-      "macd": {
-        "value": -0.0059,
-        "signal": -0.0053,
-        "histogram": -0.0006,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "8.8M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "ROSE/USDT",
-      "name": "Oasis Network",
-      "price": 0.0043,
-      "change": -1.03,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0052,
-      "rsi14": 26.1,
-      "macd": {
-        "value": -0.0006,
-        "signal": -0.0006,
-        "histogram": -0.0,
-        "trend": "Bearish Breakdown"
-      },
-      "action_signal": "SELL",
-      "volume": "2.1M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "ARB/USDT",
-      "name": "Arbitrum",
-      "price": 0.1128,
-      "change": -1.17,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.1416,
-      "rsi14": 27.4,
-      "macd": {
-        "value": -0.0148,
-        "signal": -0.012,
-        "histogram": -0.0029,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "109.8M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "CRV/USDT",
-      "name": "Curve DAO",
-      "price": 0.1776,
-      "change": -1.17,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.2308,
-      "rsi14": 20.8,
-      "macd": {
-        "value": -0.0339,
-        "signal": -0.0312,
-        "histogram": -0.0027,
-        "trend": "Neutral"
-      },
-      "action_signal": "WAIT",
-      "volume": "49.3M",
-      "confidence": "50%"
     },
     {
       "ticker": "LTC/USDT",
       "name": "Litecoin",
-      "price": 40.06,
-      "change": -1.23,
+      "price": 40.03,
+      "change": 0.75,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 47.65,
-      "rsi14": 22.7,
+      "ema20_value": 46.92,
+      "rsi14": 23.1,
       "macd": {
-        "value": -4.2,
-        "signal": -3.6,
-        "histogram": -0.5972,
-        "trend": "Bearish Momentum"
+        "value": -4.4,
+        "signal": -3.89,
+        "histogram": -0.5154,
+        "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "275.3M",
+      "volume": "155.9M",
       "confidence": "90%"
     },
     {
-      "ticker": "KAS/USDT",
-      "name": "Kaspa",
-      "price": 0.0256,
-      "change": -1.32,
+      "ticker": "ALGO/USDT",
+      "name": "Algorand",
+      "price": 0.0753,
+      "change": 0.75,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0287,
+      "ema20_value": 0.0842,
       "rsi14": 29.8,
       "macd": {
-        "value": -0.0023,
-        "signal": -0.0023,
-        "histogram": 0.0,
-        "trend": "Bullish"
+        "value": -0.0073,
+        "signal": -0.007,
+        "histogram": -0.0003,
+        "trend": "Neutral"
       },
-      "action_signal": "WAIT",
-      "volume": "13.1M",
-      "confidence": "50%"
+      "action_signal": "SELL",
+      "volume": "42.5M",
+      "confidence": "90%"
     },
     {
-      "ticker": "SNX/USDT",
-      "name": "Synthetix",
-      "price": 0.1456,
-      "change": -1.42,
+      "ticker": "CORE/USDT",
+      "name": "Core",
+      "price": 0.0102,
+      "change": 0.71,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.1632,
-      "rsi14": 34.0,
+      "ema20_value": 0.0116,
+      "rsi14": 30.0,
       "macd": {
-        "value": -0.0126,
-        "signal": -0.0138,
-        "histogram": 0.0012,
-        "trend": "Bullish"
+        "value": -0.0016,
+        "signal": -0.0017,
+        "histogram": 0.0002,
+        "trend": "Bullish Momentum"
       },
       "action_signal": "WAIT",
-      "volume": "6.7M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "IOTA/USDT",
-      "name": "IOTA",
-      "price": 0.0299,
-      "change": -1.85,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0344,
-      "rsi14": 26.6,
-      "macd": {
-        "value": -0.0031,
-        "signal": -0.0031,
-        "histogram": 0.0,
-        "trend": "Bullish"
-      },
-      "action_signal": "WAIT",
-      "volume": "5.6M",
+      "volume": "2.2M",
       "confidence": "50%"
     },
     {
       "ticker": "SEI/USDT",
       "name": "Sei",
-      "price": 0.0344,
-      "change": -2.12,
+      "price": 0.0345,
+      "change": 0.61,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0422,
-      "rsi14": 25.5,
+      "ema20_value": 0.0415,
+      "rsi14": 26.0,
       "macd": {
-        "value": -0.0047,
-        "signal": -0.0045,
+        "value": -0.0048,
+        "signal": -0.0046,
         "histogram": -0.0002,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "23.9M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "SAND/USDT",
-      "name": "The Sandbox",
-      "price": 0.0329,
-      "change": -2.12,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0395,
-      "rsi14": 27.4,
-      "macd": {
-        "value": -0.0041,
-        "signal": -0.0038,
-        "histogram": -0.0003,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "15.1M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "BAT/USDT",
-      "name": "Basic Attention Token",
-      "price": 0.0793,
-      "change": -2.29,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.1076,
-      "rsi14": 31.0,
-      "macd": {
-        "value": -0.0148,
-        "signal": -0.0118,
-        "histogram": -0.003,
         "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "11.2M",
+      "volume": "10.7M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "ENJ/USDT",
+      "name": "Enjin Coin",
+      "price": 0.0178,
+      "change": 0.43,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0207,
+      "rsi14": 26.7,
+      "macd": {
+        "value": -0.002,
+        "signal": -0.0019,
+        "histogram": -0.0001,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "2.4M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "XMR/USDT",
+      "name": "Monero",
+      "price": 493.47,
+      "change": 0.38,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 528.37,
+      "rsi14": 40.2,
+      "macd": {
+        "value": -27.77,
+        "signal": -21.5,
+        "histogram": -6.27,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "92.2M",
       "confidence": "98%"
     },
     {
-      "ticker": "DOT/USDT",
-      "name": "Polkadot",
-      "price": 0.645,
-      "change": -2.48,
+      "ticker": "EOS/USDT",
+      "name": "EOS",
+      "price": 0.0652,
+      "change": 0.38,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.8004,
-      "rsi14": 19.8,
+      "ema20_value": 0.0719,
+      "rsi14": 34.0,
       "macd": {
-        "value": -0.0906,
-        "signal": -0.082,
-        "histogram": -0.0086,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "WAIT",
-      "volume": "85.9M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "NOT/USDT",
-      "name": "Notcoin",
-      "price": 0.0003,
-      "change": -2.83,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0003,
-      "rsi14": 31.8,
-      "macd": {
-        "value": -0.0,
-        "signal": -0.0,
+        "value": -0.0059,
+        "signal": -0.006,
         "histogram": 0.0,
-        "trend": "Bullish"
+        "trend": "Bullish Crossover"
       },
       "action_signal": "WAIT",
-      "volume": "2.8M",
+      "volume": "54.1K",
       "confidence": "50%"
     },
     {
-      "ticker": "CORE/USDT",
-      "name": "Core",
-      "price": 0.01,
-      "change": -3.03,
+      "ticker": "VET/USDT",
+      "name": "VeChain",
+      "price": 0.0046,
+      "change": 0.35,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0117,
-      "rsi14": 28.9,
+      "ema20_value": 0.0051,
+      "rsi14": 31.6,
       "macd": {
-        "value": -0.0016,
-        "signal": -0.0017,
-        "histogram": 0.0001,
+        "value": -0.0005,
+        "signal": -0.0005,
+        "histogram": 0.0,
         "trend": "Bullish Momentum"
       },
       "action_signal": "WAIT",
-      "volume": "4.4M",
+      "volume": "5.5M",
       "confidence": "50%"
-    },
-    {
-      "ticker": "CHZ/USDT",
-      "name": "Chiliz",
-      "price": 0.0089,
-      "change": -3.15,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0105,
-      "rsi14": 19.4,
-      "macd": {
-        "value": -0.001,
-        "signal": -0.0009,
-        "histogram": -0.0,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "WAIT",
-      "volume": "21.2M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "FET/USDT",
-      "name": "Artificial Superintelligence",
-      "price": 0.1105,
-      "change": -3.16,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.1392,
-      "rsi14": 25.0,
-      "macd": {
-        "value": -0.0153,
-        "signal": -0.0142,
-        "histogram": -0.0011,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "142.9M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "WIF/USDT",
-      "name": "dogwifhat",
-      "price": 0.118,
-      "change": -3.16,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.1463,
-      "rsi14": 21.1,
-      "macd": {
-        "value": -0.0166,
-        "signal": -0.0153,
-        "histogram": -0.0012,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "WAIT",
-      "volume": "47.9M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "LDO/USDT",
-      "name": "Lido DAO",
-      "price": 0.232,
-      "change": -3.33,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.294,
-      "rsi14": 23.4,
-      "macd": {
-        "value": -0.0314,
-        "signal": -0.0271,
-        "histogram": -0.0043,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "41.5M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "FIL/USDT",
-      "name": "Filecoin",
-      "price": 0.516,
-      "change": -3.58,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.6865,
-      "rsi14": 18.2,
-      "macd": {
-        "value": -0.101,
-        "signal": -0.0889,
-        "histogram": -0.012,
-        "trend": "Neutral"
-      },
-      "action_signal": "WAIT",
-      "volume": "98.8M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "KAVA/USDT",
-      "name": "Kava",
-      "price": 0.0258,
-      "change": -3.99,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0467,
-      "rsi14": 7.4,
-      "macd": {
-        "value": -0.0114,
-        "signal": -0.0079,
-        "histogram": -0.0034,
-        "trend": "Neutral"
-      },
-      "action_signal": "WAIT",
-      "volume": "5.7M",
-      "confidence": "50%"
-    },
-    {
-      "ticker": "DYDX/USDT",
-      "name": "dYdX",
-      "price": 0.0684,
-      "change": -4.07,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.0869,
-      "rsi14": 23.0,
-      "macd": {
-        "value": -0.01,
-        "signal": -0.0091,
-        "histogram": -0.0009,
-        "trend": "Bearish Momentum"
-      },
-      "action_signal": "SELL",
-      "volume": "4.1M",
-      "confidence": "90%"
-    },
-    {
-      "ticker": "JUP/USDT",
-      "name": "Jupiter",
-      "price": 0.2176,
-      "change": -4.13,
-      "ema20_status": "Below EMA 20",
-      "ema20_value": 0.2525,
-      "rsi14": 36.8,
-      "macd": {
-        "value": -0.0113,
-        "signal": -0.0104,
-        "histogram": -0.0009,
-        "trend": "Bearish Breakdown"
-      },
-      "action_signal": "SELL",
-      "volume": "41.7M",
-      "confidence": "98%"
     },
     {
       "ticker": "ATOM/USDT",
       "name": "Cosmos",
       "price": 1.17,
-      "change": -4.29,
+      "change": 0.31,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 1.35,
-      "rsi14": 30.3,
+      "ema20_value": 1.34,
+      "rsi14": 30.5,
       "macd": {
-        "value": -0.0917,
-        "signal": -0.0862,
-        "histogram": -0.0055,
+        "value": -0.096,
+        "signal": -0.0893,
+        "histogram": -0.0067,
         "trend": "Bearish Momentum"
       },
       "action_signal": "SELL",
-      "volume": "23.8M",
+      "volume": "19.4M",
       "confidence": "98%"
     },
     {
-      "ticker": "INJ/USDT",
-      "name": "Injective",
-      "price": 6.05,
-      "change": -4.79,
+      "ticker": "HBAR/USDT",
+      "name": "Hedera",
+      "price": 0.0516,
+      "change": 0.26,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 7.24,
-      "rsi14": 34.9,
+      "ema20_value": 0.0607,
+      "rsi14": 23.3,
       "macd": {
-        "value": -0.3351,
-        "signal": -0.1918,
-        "histogram": -0.1434,
-        "trend": "Bearish Momentum"
+        "value": -0.0065,
+        "signal": -0.0061,
+        "histogram": -0.0004,
+        "trend": "Neutral"
       },
       "action_signal": "SELL",
-      "volume": "107.1M",
+      "volume": "27.5M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "TRX/USDT",
+      "name": "TRON",
+      "price": 0.3053,
+      "change": 0.14,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.3119,
+      "rsi14": 38.6,
+      "macd": {
+        "value": -0.0055,
+        "signal": -0.0052,
+        "histogram": -0.0002,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "340.0M",
       "confidence": "98%"
     },
     {
-      "ticker": "ICP/USDT",
-      "name": "Internet Computer",
-      "price": 1.89,
-      "change": -6.24,
+      "ticker": "DOGE/USDT",
+      "name": "Dogecoin",
+      "price": 0.0552,
+      "change": 0.1,
       "ema20_status": "Below EMA 20",
-      "ema20_value": 2.34,
+      "ema20_value": 0.0634,
+      "rsi14": 25.3,
+      "macd": {
+        "value": -0.0059,
+        "signal": -0.0055,
+        "histogram": -0.0005,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "390.3M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "ADA/USDT",
+      "name": "Cardano",
+      "price": 0.1444,
+      "change": 0.07,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.1647,
+      "rsi14": 25.9,
+      "macd": {
+        "value": -0.0159,
+        "signal": -0.0154,
+        "histogram": -0.0005,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "198.8M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "SOL/USDT",
+      "name": "Solana",
+      "price": 70.23,
+      "change": 0.02,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 79.3,
+      "rsi14": 26.7,
+      "macd": {
+        "value": -7.58,
+        "signal": -7.4,
+        "histogram": -0.1817,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "1.87B",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "AXS/USDT",
+      "name": "Axie Infinity",
+      "price": 0.6209,
+      "change": -0.03,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.7347,
+      "rsi14": 24.7,
+      "macd": {
+        "value": -0.0841,
+        "signal": -0.0799,
+        "histogram": -0.0042,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "9.9M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "BSV/USDT",
+      "name": "Bitcoin SV",
+      "price": 14.01,
+      "change": -0.11,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 15.38,
+      "rsi14": 28.4,
+      "macd": {
+        "value": -0.9003,
+        "signal": -0.8317,
+        "histogram": -0.0686,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "7.5M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "HNT/USDT",
+      "name": "Helium",
+      "price": 0.2202,
+      "change": -0.18,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.2597,
+      "rsi14": 23.5,
+      "macd": {
+        "value": -0.0409,
+        "signal": -0.044,
+        "histogram": 0.0031,
+        "trend": "Bullish Momentum"
+      },
+      "action_signal": "WAIT",
+      "volume": "1.6M",
+      "confidence": "50%"
+    },
+    {
+      "ticker": "UNI/USDT",
+      "name": "Uniswap",
+      "price": 4.72,
+      "change": -0.35,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 5.68,
       "rsi14": 31.8,
       "macd": {
-        "value": -0.1658,
-        "signal": -0.1332,
-        "histogram": -0.0326,
+        "value": -0.6751,
+        "signal": -0.5798,
+        "histogram": -0.0952,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "215.9M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "THETA/USDT",
+      "name": "Theta Network",
+      "price": 0.1263,
+      "change": -0.39,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.1399,
+      "rsi14": 29.1,
+      "macd": {
+        "value": -0.0124,
+        "signal": -0.0136,
+        "histogram": 0.0011,
+        "trend": "Bullish Momentum"
+      },
+      "action_signal": "WAIT",
+      "volume": "2.3M",
+      "confidence": "50%"
+    },
+    {
+      "ticker": "FET/USDT",
+      "name": "Artificial Superintelligence",
+      "price": 0.1084,
+      "change": -0.61,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.1363,
+      "rsi14": 23.9,
+      "macd": {
+        "value": -0.0163,
+        "signal": -0.0151,
+        "histogram": -0.0013,
         "trend": "Bearish Momentum"
       },
       "action_signal": "SELL",
-      "volume": "64.9M",
+      "volume": "127.0M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "XRP/USDT",
+      "name": "Ripple",
+      "price": 0.9253,
+      "change": -0.65,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 1.04,
+      "rsi14": 28.5,
+      "macd": {
+        "value": -0.0926,
+        "signal": -0.0906,
+        "histogram": -0.0021,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "1.24B",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "CRO/USDT",
+      "name": "Cronos",
+      "price": 0.0409,
+      "change": -0.65,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0454,
+      "rsi14": 28.9,
+      "macd": {
+        "value": -0.0035,
+        "signal": -0.0033,
+        "histogram": -0.0002,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "3.2M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "BCH/USDT",
+      "name": "Bitcoin Cash",
+      "price": 197.91,
+      "change": -0.68,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 224.59,
+      "rsi14": 28.1,
+      "macd": {
+        "value": -20.6,
+        "signal": -19.36,
+        "histogram": -1.24,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "90.7M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "QNT/USDT",
+      "name": "Quant",
+      "price": 142.33,
+      "change": -0.75,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 163.52,
+      "rsi14": 34.6,
+      "macd": {
+        "value": -13.59,
+        "signal": -11.26,
+        "histogram": -2.33,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "43.0M",
       "confidence": "98%"
+    },
+    {
+      "ticker": "JASMY/USDT",
+      "name": "JasmyCoin",
+      "price": 0.0031,
+      "change": -0.84,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0034,
+      "rsi14": 31.4,
+      "macd": {
+        "value": -0.0003,
+        "signal": -0.0003,
+        "histogram": 0.0,
+        "trend": "Bullish Crossover"
+      },
+      "action_signal": "WAIT",
+      "volume": "5.2M",
+      "confidence": "50%"
+    },
+    {
+      "ticker": "MINA/USDT",
+      "name": "Mina",
+      "price": 0.0409,
+      "change": -0.84,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0498,
+      "rsi14": 23.7,
+      "macd": {
+        "value": -0.0075,
+        "signal": -0.0081,
+        "histogram": 0.0006,
+        "trend": "Bullish"
+      },
+      "action_signal": "WAIT",
+      "volume": "3.1M",
+      "confidence": "50%"
+    },
+    {
+      "ticker": "QTUM/USDT",
+      "name": "Qtum",
+      "price": 0.6111,
+      "change": -0.88,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.6793,
+      "rsi14": 27.2,
+      "macd": {
+        "value": -0.0511,
+        "signal": -0.052,
+        "histogram": 0.0009,
+        "trend": "Bullish"
+      },
+      "action_signal": "WAIT",
+      "volume": "4.0M",
+      "confidence": "50%"
+    },
+    {
+      "ticker": "DYDX/USDT",
+      "name": "dYdX",
+      "price": 0.0686,
+      "change": -0.93,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0853,
+      "rsi14": 23.0,
+      "macd": {
+        "value": -0.0102,
+        "signal": -0.0094,
+        "histogram": -0.0008,
+        "trend": "Bearish Momentum"
+      },
+      "action_signal": "SELL",
+      "volume": "2.5M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "XLM/USDT",
+      "name": "Stellar",
+      "price": 0.1276,
+      "change": -1.0,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.1435,
+      "rsi14": 28.6,
+      "macd": {
+        "value": -0.0112,
+        "signal": -0.0108,
+        "histogram": -0.0004,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "83.4M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "CHZ/USDT",
+      "name": "Chiliz",
+      "price": 0.0088,
+      "change": -1.1,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0104,
+      "rsi14": 18.7,
+      "macd": {
+        "value": -0.001,
+        "signal": -0.001,
+        "histogram": -0.0,
+        "trend": "Bearish Momentum"
+      },
+      "action_signal": "WAIT",
+      "volume": "10.4M",
+      "confidence": "50%"
+    },
+    {
+      "ticker": "GNO/USDT",
+      "name": "Gnosis",
+      "price": 88.68,
+      "change": -1.36,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 99.11,
+      "rsi14": 30.9,
+      "macd": {
+        "value": -5.25,
+        "signal": -4.28,
+        "histogram": -0.9724,
+        "trend": "Bearish Momentum"
+      },
+      "action_signal": "SELL",
+      "volume": "666.4K",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "AEVO/USDT",
+      "name": "Aevo",
+      "price": 0.0155,
+      "change": -1.64,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0178,
+      "rsi14": 28.5,
+      "macd": {
+        "value": -0.0014,
+        "signal": -0.0014,
+        "histogram": -0.0001,
+        "trend": "Bearish Momentum"
+      },
+      "action_signal": "SELL",
+      "volume": "1.3M",
+      "confidence": "90%"
+    },
+    {
+      "ticker": "AKT/USDT",
+      "name": "Akash Network",
+      "price": 0.4975,
+      "change": -2.07,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.5535,
+      "rsi14": 37.4,
+      "macd": {
+        "value": -0.0404,
+        "signal": -0.0383,
+        "histogram": -0.0021,
+        "trend": "Neutral"
+      },
+      "action_signal": "SELL",
+      "volume": "2.4M",
+      "confidence": "98%"
+    },
+    {
+      "ticker": "SNX/USDT",
+      "name": "Synthetix",
+      "price": 0.1419,
+      "change": -2.29,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.1612,
+      "rsi14": 32.2,
+      "macd": {
+        "value": -0.013,
+        "signal": -0.0139,
+        "histogram": 0.0009,
+        "trend": "Bullish"
+      },
+      "action_signal": "WAIT",
+      "volume": "5.5M",
+      "confidence": "50%"
     },
     {
       "ticker": "SHIB/USDT",
       "name": "Shiba Inu",
       "price": 0.0,
-      "change": -9.75,
+      "change": -10.25,
       "ema20_status": "Below EMA 20",
       "ema20_value": 0.0,
       "rsi14": 0.0,
       "macd": {
         "value": -0.0,
         "signal": -0.0,
-        "histogram": -0.0,
-        "trend": "Bearish Breakdown"
+        "histogram": 0.0,
+        "trend": "Bullish"
       },
       "action_signal": "WAIT",
-      "volume": "62.9M",
+      "volume": "33.4M",
+      "confidence": "60%"
+    },
+    {
+      "ticker": "KAVA/USDT",
+      "name": "Kava",
+      "price": 0.0231,
+      "change": -10.67,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 0.0445,
+      "rsi14": 6.8,
+      "macd": {
+        "value": -0.0118,
+        "signal": -0.0087,
+        "histogram": -0.0031,
+        "trend": "Neutral"
+      },
+      "action_signal": "WAIT",
+      "volume": "9.6M",
       "confidence": "50%"
+    },
+    {
+      "ticker": "MKR/USDT",
+      "name": "Maker",
+      "price": 994.4,
+      "change": -30.92,
+      "ema20_status": "Below EMA 20",
+      "ema20_value": 1315.69,
+      "rsi14": 35.0,
+      "macd": {
+        "value": -102.23,
+        "signal": -100.29,
+        "histogram": -1.95,
+        "trend": "Bearish Breakdown"
+      },
+      "action_signal": "SELL",
+      "volume": "30.9K",
+      "confidence": "98%"
     }
   ]
 }
